@@ -1,0 +1,40 @@
+<div id="{{ include.class }}">
+
+  {% for post in site.categories[include.cat] %}
+<!--% for post in site.posts %}-->
+    {% if post.column == include.column %}
+
+              <div id="wrapper-post2" class="text-part-A5">
+                <a target="_blank" href="http://{{ post.link }}">
+                  <div id="A3-left-image-2"><img src="{{ post.image }}"  alt="{{ post.title }}" title="{{ post.title }}" class="grow"/></div>
+                  <span class="copyright">{% if post.linkalt %}{{ post.linkalt }}{% else %}{{ post.link }}{% endif %}</span>
+                </a>
+
+                <div id="wrapper-A3-left-date-2">
+                  <div id="A3-left-date-2">{{ post.date | date: "%b %-d, %Y" }}</div>
+                    <div id="A3-left-icone-2"></div>
+                </div>
+                <div id="A3-left-title-2"><a class="hl-link" target="_blank" href="http://{{ post.link  }}">{{ post.title }}</a></div>
+
+                <div id="A3-left-text-2">{{ post.content }}</div>
+              </div>
+    {% endif %}
+  {% endfor %}
+
+
+    <!--div id="wrapper-post1" class="text-part-A5">
+        <div class="video-container-1">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/aN-zEzr4Zwc" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+        <div id="wrapper-A3-left-date-1">
+          <div id="A3-left-date-1">22 nov, 2014</div>
+            <div id="A3-left-icone-1"></div>
+        </div>
+        <ul>
+          <li><div id="A3-left-title-1"><a href="spore-post1.html">Post a Youtube video</a></div></li>
+        </ul>
+          <div id="A3-left-text-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</div>
+      </div-->
+
+  </div>
