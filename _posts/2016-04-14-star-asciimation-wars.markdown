@@ -3,7 +3,7 @@ layout: post
 title:  Star "ASCIImation" wars
 date:   2016-04-12 20:05:35 +0200
 categories: online ascii animation
-image: /IMG/preview-asciiwars.png
+image: IMG/preview-asciiwars.png
 link: www.asciimation.co.nz
 column: f3
 ---
