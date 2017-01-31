@@ -16,13 +16,6 @@ html,body{
 
 
 #A0{
-	background: url(IMG/gallery-in-a-page.jpg)  50% 50% no-repeat; /** Background image - change it here !**/
-	position:absolute;
-    background-size: cover;
-	-webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
     left: 0;
     top: 0;
     right: 0;

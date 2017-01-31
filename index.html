@@ -198,42 +198,10 @@ layout: default
 
 
 
-
-
-<div id="A2">
-
-    <div id="text-2" class="wow flipInX" data-wow-offset="10" data-wow-delay="0.5s">
-			Als Vorbereitung auf und Begleitung zu den <span> Münsteraner Skultpur-Projekten</span>
-			haben wir eine Auswahl an
-			<span> digitalen Skulpturen </span> erstellt.<br />  Viel Spaß beim Stöbern!
-<br />
-			Man kann auf die Bilder klicken, um zur jeweiligen Internetseite zu gelangen:</div>
-
-</div>
-
 <!-- headline -->
 <div class="headliner">
 	<div class="outerh1">
-		<h1  class="wow bounceInRight" data-wow-offset="10">Online-Skulptursammlungen</h1>
-	</div>
-</div>
-
-
-<!-- category content list -->
-<div id="wrapper-A3" class="object">
-  {% assign cat_name = "online" %}
-			{% include frontpage-column.html column="f1" class="A3-left" cat=cat_name %}
-  		{% include frontpage-column.html column="f2" class="A3-middle" cat=cat_name %}
-			{% include frontpage-column.html column="f3" class="A3-right" cat=cat_name %}
-
-	<div class="calage"></div>
-</div>
-
-
-<!-- headline -->
-<div class="headliner">
-	<div class="outerh1">
-		<h1  class="wow bounceInRight" data-wow-offset="10">Ausstellungspunkte des Alternativen Skulpturpojekts Münster</h1>
+		<h1  class="wow bounceInRight" data-wow-offset="10">Ausstellungsorte des Alternativen Skulpturpojekts Münster</h1>
 	</div>
 </div>
 
@@ -277,6 +245,39 @@ layout: default
 
 	<div class="calage"></div>
 </div>
+
+
+<!-- headline -->
+<div class="headliner">
+	<div class="outerh1">
+		<h1  class="wow bounceInRight" data-wow-offset="10">Online-Skulptursammlungen</h1>
+	</div>
+</div>
+
+
+<div id="A2">
+
+    <div id="text-2" class="wow flipInX" data-wow-offset="10" data-wow-delay="0.5s">
+			Als Vorbereitung auf und Begleitung zu den <span> Münsteraner Skultpur-Projekten</span>
+			haben wir eine Auswahl an
+			<span> digitalen Skulpturen </span> erstellt.<br />  Viel Spaß beim Stöbern!
+<br />
+			Man kann auf die Bilder klicken, um zur jeweiligen Internetseite zu gelangen:</div>
+
+</div>
+
+
+<!-- category content list -->
+<div id="wrapper-A3" class="object">
+  {% assign cat_name = "online" %}
+			{% include frontpage-column.html column="f1" class="A3-left" cat=cat_name %}
+  		{% include frontpage-column.html column="f2" class="A3-middle" cat=cat_name %}
+			{% include frontpage-column.html column="f3" class="A3-right" cat=cat_name %}
+
+	<div class="calage"></div>
+</div>
+
+
 
 <!-- headline -->
 <div class="headliner">
@@ -383,17 +384,31 @@ center a {
 	    color: #ddd;
 	    padding-left: 10px;
 }
+.sponsor img {height:72px;vertical-align:middle}
+.sponsor {padding:2px 0; display:inline-block;background-color:white;color:#222;
+   text-align: center;
+}
 </style>
 
-<br /><br />
+
 <center>
+
+	<div style="color:white;margin-bottom:18px"><a>In Zusammenarbeit mit</a></div>
+
+						<a class="sponsor" style="padding-left:10px;padding-right:10px"
+						href="www.wohnzimmer-ev.de">
+							<img style="margin:0 5px 0 0" src="IMG/logo-wohnzimmer-ev.gif">Wohnzimmer e.V.</a>
+
+              <a class="sponsor" href="http://codeformuenster.org"><img src="http://codeformuenster.org/img/cfm_logo.png"></a>
+
+
+							<br /><br />
+							<br /><br />
+							<br /><br />
+
                     <a target="_blank" href="http://goo.gl/forms/iEEYQbDPYD">Kontaktformular</a>
                     <a href="https://twitter.com/codeformuenster">Twitter</a>
 										<a href="https://github.com/codeformuenster">GitHub</a>
-
-<br /><br />
-
-                    <a href="http://codeformuenster.org"><img src="http://codeformuenster.org/img/cfm_logo.png"></a>
 
 </center>
 
@@ -543,7 +558,7 @@ $(function() {
 });
 
 
-/*CLICK PLUS AND CROSS MENU*/
+/*CLICK PLUS AND CROSS MENU
 
 var SS = document.getElementById('wrapper-plus');
 
@@ -553,6 +568,7 @@ SS.addEventListener('click', function() {
              $(".category-post").delay(500).fadeIn(500);
 			 $("#wrapper-plus").fadeOut(250);
 });
+*/
 
 var WC = document.getElementById('wrapper-cross');
 
