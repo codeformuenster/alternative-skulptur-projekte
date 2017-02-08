@@ -41,7 +41,13 @@ Die Eckpunkte unserer Idee:
 <li>Bürgerinnen und Bürger können selbständig oder, falls wir genügend Ressourcen finden um das zu organisieren, bei technisch begleiteten Hackathons digitale Skulpturen erstellen und auf die zentrale Internetplattform laden.</li>
 </ul>
 
-<p>Den Organisationsrahmen zur Schatten-Skulptura bildet eine Internet-Plattform. Hier wird das Projekt erklärt, die Teilnahme erörtert und die Regeln erklärt. Teilnehmer/innen können sich über diese Plattform mit ihrer Skulptur anmelden. Erfasst werden Daten zu den Verantwortlichen, zum Standort, zum Zeitraum und zur Art bzw. Kategorie der Skulptur. Alle gesammelten Beiträge werden über diese Plattform veröffentlicht und sind nach Kategorie, Ort, Datum und ggf. weiteren Kriterien filterbar.<!-- Ein Beispiel: Der Wohnzimmer e.V. meldet über die Plattform eine Skulptur-Ausstellung in einem privaten Garten in Münster an, die an allen Sonntagen im August von 11 bis 20 Uhr zugänglich ist. Am dritten Sonntag findet zusätzlich eine Kulturveranstaltung mit Live-Performances statt. Der genaue Ort wird in einer Karte angezeigt und die Termine im Kalender (mit ausführlichen Infos) veröffentlicht.</p>
+<p>Den Organisationsrahmen zur Schatten-Skulptura bildet eine Internet-Plattform. Hier wird das Projekt erklärt, die Teilnahme erörtert und die Regeln erklärt. Teilnehmer/innen können sich über diese Plattform mit ihrer Skulptur anmelden. Erfasst werden Daten zu den Verantwortlichen, zum Standort, zum Zeitraum und zur Art bzw. Kategorie der Skulptur. Alle gesammelten Beiträge werden über diese Plattform veröffentlicht und sind nach Kategorie, Ort, Datum und ggf. weiteren Kriterien filterbar.
+<div style="float:right">
+-- Initiator: Jochen Kubeja
+</div>
+<br />
+
+<!-- Ein Beispiel: Der Wohnzimmer e.V. meldet über die Plattform eine Skulptur-Ausstellung in einem privaten Garten in Münster an, die an allen Sonntagen im August von 11 bis 20 Uhr zugänglich ist. Am dritten Sonntag findet zusätzlich eine Kulturveranstaltung mit Live-Performances statt. Der genaue Ort wird in einer Karte angezeigt und die Termine im Kalender (mit ausführlichen Infos) veröffentlicht.</p>
 
 
 <p>Diese Grundidee könnte man je nach dem um weitere Ideen erweitern, z.B. könnten auf die Informationen zu den Schatten-Skulpturen QR-Codes erstellen und im öffentlichen Raum anbringen (zum Beispiel in der Nähe von originalen Skulptura-Skulpturen). Besucher können diese QR-Code-Tafeln suchen, finden, die dort verlinkte digitale Kunst genießen und obendrein sammeln. Die Skulptura-Besucher könnten mit diesen QR-Codes z.B. virtuelle Punkte sammeln, oder aufgefordert werden, ein Skulpturen-Quiz zu lösen, oder weitere Gamification-Elemente.
@@ -51,11 +57,11 @@ Man könnte außerdem zusätzlich zur Internet-Plattform eine Print-Publikation 
 -->
 </p>
 <h2>Wie kann man mitmachen?</h2>
-<a href="https://www.meetup.com/de-DE/OK-Lab-Munster/events/236074849/?eventId=236074849">
+<a href="http://codeformuenster.org/opendataday/">
 <img style="float:left;margin-right:15px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABmUExURUdwTAAAAAAAAPA3EAAAAAAAAAAAAAAAAAAAAAAAAP///83NzfLw79LS0mFhYeEzDkBAQNPT02AVCbu7u3p6evmqm7coCP7n4/JNKvvEuYUZBKamphwcHBkBAPaHcPRoTNWViaVeUE35a2gAAAAKdFJOUwAf//+ZQtvwyHJVR5WiAAADi0lEQVRYw+2Y626rMAyARwokKRTCvfS+93/JQxIHcnHoqvNr0ixNWhvz1TeMzdfXn/xe4YxSxrOUUUIoS7O4ZsaNjr7GOUwY8YRFUFmomVjHwekiaRJikhRRzC2/CCZ5QEpyVJE7Bt2q6kaI6Luiu/ZCKdAs4SnLZURylvIko+prqVN0UkdfQ9gKkgpV3/dVV5yKQv5dbyQit2uhpCk6dYn8zgeBihaBc4Stc/VByjWXU1Q4qCpckusaD1U0595exvqwSD1e2juJqG3BzuTHLlBox4MjYxuQOvnNVnKp77zkXOpDIPXFJ0nN1IlR7562CEZJ65BOfZB+y7Oe3I1Tz8c8TcfjNM2Pp3Hwbv+o9I06IDsVYM55WBibTMNZ+9faCQ7qqNs434ABQHk6lfAvoL43UueA5C1kjnrgPMzFx2YJxWrVA0g96poV7Iq0SnUxp2ya0gbpzwOEvDLx9AtSAOeu4jMvF55WgHYNPs8qTncgCSf9qiCvOu+j4awgI+azIo26Cq5uQSrfhK4f8MsNsvt52OpJOJ6BSZWsUunY4/hGZMRrcwVxmrJpoReZ9/IdqJRVcDEtGW2itXLMdypwcACTkIacqDYqI3R2K8cXfXbWUVpqKGjsKkyjjrQBVVUZAQ06cV6AtEmyj8l0TFspViIk6bNJaspOFz6zOHj2tC/CSFqe4BsPQCnkzMl9nDRA3tIAxCBE8/FHpBmCxAJQDsmfjj8iTVAAeQCiK8itorJq6/McVFIJIIqCZCqCm7WsVW35BSB1naYWgpr/B6GuiQ9diwVb3MRnwY6kP8LZST9ekDGOakl4QaK3SJSzc4tk9k2rw41y9Nl60yIzK/XbCG6P20YoMvimfmPD/XIbW4pN0FarVT1HoPFRZ2urRadx+nnzz/Etgnz6OEJytvZ/5wHZuA/IxntAIp3fMunnj+yYQRAlbIhosCEiFqH1efvaxpqTO9aoUtRjzYtEcm9tAMVrZ9Aq9aD1UtMsjS5/MG6/3o1+Lxj5+K5Bi9K7YbSDAZvuGyTHtnU8HuZpMaec5sEaj6ti1yRmDFLjRGRgr9vt57C2Zg/JsBdFVwjr9+geqFtXKnypIWTTo1HXRNc5G59csxbLarlmOfuf1mPxYMO6y2lsFaWcY2txYJJe5eVijqJybuvF7hHzGgHGwsxnUfOCgiGvDsIXGzm3X19Y67rVDXkevMz4k98o/wBhYG9yu+/aywAAAABJRU5ErkJggg==" />
 <b>Wir treffen uns am Samstag, den 4. März
-<br />ab 10 Uhr im Forum der VHS Münster zur Initalplanung
-<br />beim Tag der Offenen Daten, unserem kleinen Forum zur Bürgerbeteiligung.
+<br />beim Tag der Offenen Daten - Forum zur Bürgerbeteiligung.
+<br />Ab 13 Uhr im Forum der VHS Münster. [Details klicke hier]
 <br />Alle Interessierten sind herzlich eingeladen!</b>
 </a>
 <br /><br />
