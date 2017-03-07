@@ -94,3 +94,6 @@ Die Skulptura findet in Hinterhöfen, in Gärten, auf Straßen und den Plätzen 
 <br>Wer im öffentlichen Raum etwas machen will, muss die <a target="_blanc" href="http://www.4telfest.de/index.php?id=privatpersonen0#c401">Erlaubnis zur Nutzung von öffentlichen Straßen des Ordnungsamtes</a> beachten. Das heißt hauptsächlich, dass die Gehwege frei bleiben müssen.
 </p>
 <br>
+<p>.
+</p>
+<p>.</p>
