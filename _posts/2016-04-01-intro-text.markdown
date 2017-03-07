@@ -49,6 +49,7 @@ Die Eckpunkte unserer Idee:
 
 <!-- Ein Beispiel: Der Wohnzimmer e.V. meldet über die Plattform eine Skulptur-Ausstellung in einem privaten Garten in Münster an, die an allen Sonntagen im August von 11 bis 20 Uhr zugänglich ist. Am dritten Sonntag findet zusätzlich eine Kulturveranstaltung mit Live-Performances statt. Der genaue Ort wird in einer Karte angezeigt und die Termine im Kalender (mit ausführlichen Infos) veröffentlicht.</p>
 
+Bude 2000
 
 <p>Diese Grundidee könnte man je nach dem um weitere Ideen erweitern, z.B. könnten auf die Informationen zu den Schatten-Skulpturen QR-Codes erstellen und im öffentlichen Raum anbringen (zum Beispiel in der Nähe von originalen Skulptura-Skulpturen). Besucher können diese QR-Code-Tafeln suchen, finden, die dort verlinkte digitale Kunst genießen und obendrein sammeln. Die Skulptura-Besucher könnten mit diesen QR-Codes z.B. virtuelle Punkte sammeln, oder aufgefordert werden, ein Skulpturen-Quiz zu lösen, oder weitere Gamification-Elemente.
 </p>
