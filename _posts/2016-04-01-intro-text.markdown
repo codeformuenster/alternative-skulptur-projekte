@@ -80,17 +80,16 @@ Wir freuen uns außerdem über jede Anregung und Hilfe:
 
 <h2>Das Kleingedruckte</h2>
 <p><b>Begriffsklärung: </b></p>
-<br>
 <p><b>Teilnehmende, Mitmacher</b> und <b>Aussteller</b> sind die, die im Projekt Schatten-Skulptura selbständig ausstellen, 
 etwas organisieren oder anbieten. <b>Gäste</b> sind die, die uns bzw. die einzelnen Schatten-Skulptura-Ausstellungen besuchen. 
 </p>
-<br>
 <p><b>Was heißt, bei Schatten-Skulptura mitmachen?</b></p>
-<br>
 <p>JedeR kann eine Skulptur auf der Plattform der Schatten-Skulptura anmelden und ausstellen. Neben Skulpturen können auch weitere Kunst-Kategorien wie Performances, Workshops, Kunst-Flash-Mobs und Skulptura-Events angeboten werden. Diese private Ausstellung wird vom Teilnehmenden verantwortet. Die Schatten-Skulptura-Macher und Betreiber der Online-Plattform sind nicht verantwortlich für die Ausstellungen der Teilnehmer.</p>
 <br>
 <p><b>Wer kann mitmachen?</b>
-Es können nur Skulpturen angemeldet und ausgestellt werden, die <b>im Stadtgebiet von Münster</b> gezeigt werden. 
-Der Grund dafür ist, dass wir den Aktionsradius überschaubar und erreichbar halten wollen.
+Es können nur Skulpturen angemeldet und ausgestellt werden, die <b>im Stadtgebiet von Münster</b> gezeigt werden. Der Grund dafür ist, dass wir den Aktionsradius überschaubar und erreichbar halten wollen.
 </p>
-
+<p><b>Wo kann man mitmachen?</b>
+Die Skulptura findet in Hinterhöfen, in Gärten, auf Straßen und den Plätzen und natürlich in Wohnzimmern und privaten Wohnungen statt. Wer in einem Mietshaus wohnt und den Garten oder Hof nutzen will, sollte das mit der Hausverwaltung absprechen. Und auch mit den Nachbarn. Dafür ist das Projekt ja auch da: Dass sich die Nachbarschaft besser kennenlernt, vielleicht zusammen etwas organisiert und ausstellt.
+<br>Wer im öffentlichen Raum etwas machen will, muss die <a target="_blanc" href="http://www.4telfest.de/index.php?id=privatpersonen0#c401">Erlaubnis zur Nutzung von öffentlichen Straßen des Ordnungsamtes</a> beachten. Das heißt hauptsächlich, dass die Gehwege frei bleiben müssen.
+</p>
