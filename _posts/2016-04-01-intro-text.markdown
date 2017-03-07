@@ -91,5 +91,6 @@ Es können nur Skulpturen angemeldet und ausgestellt werden, die <b>im Stadtgebi
 </p>
 <p><b>Wo kann man mitmachen?</b>
 Die Skulptura findet in Hinterhöfen, in Gärten, auf Straßen und den Plätzen und natürlich in Wohnzimmern und privaten Wohnungen statt. Wer in einem Mietshaus wohnt und den Garten oder Hof nutzen will, sollte das mit der Hausverwaltung absprechen. Und auch mit den Nachbarn. Dafür ist das Projekt ja auch da: Dass sich die Nachbarschaft besser kennenlernt, vielleicht zusammen etwas organisiert und ausstellt.
-<br>Wer im öffentlichen Raum etwas machen will, muss die <a target="_blanc" href="http://www.4telfest.de/index.php?id=privatpersonen0#c401">Erlaubnis zur Nutzung von öffentlichen Straßen des Ordnungsamtes</a>beachten. Das heißt hauptsächlich, dass die Gehwege frei bleiben müssen.
+<br>Wer im öffentlichen Raum etwas machen will, muss die <a target="_blanc" href="http://www.4telfest.de/index.php?id=privatpersonen0#c401">Erlaubnis zur Nutzung von öffentlichen Straßen des Ordnungsamtes</a> beachten. Das heißt hauptsächlich, dass die Gehwege frei bleiben müssen.
 </p>
+<br>
