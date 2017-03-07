@@ -43,7 +43,7 @@ Die Eckpunkte unserer Idee:
 
 <p>Den Organisationsrahmen zur Schatten-Skulptura bildet eine Internet-Plattform. Hier wird das Projekt erklärt, die Teilnahme erörtert und die Regeln erklärt. Teilnehmer/innen können sich über diese Plattform mit ihrer Skulptur anmelden. Erfasst werden Daten zu den Verantwortlichen, zum Standort, zum Zeitraum und zur Art bzw. Kategorie der Skulptur. Alle gesammelten Beiträge werden über diese Plattform veröffentlicht und sind nach Kategorie, Ort, Datum und ggf. weiteren Kriterien filterbar.
 <div style="float:right">
--- Initiator: Jochen Kubeja
+-- Initiator: Jochen Kubeja, Wohnzimmer e.V.
 </div>
 <br />
 
@@ -76,3 +76,11 @@ Wir freuen uns außerdem über jede Anregung und Hilfe:
 <a target="_blank" href="https://github.com/codeformuenster">https://github.com/codeformuenster</a></li>
 <li>Telefon / Email..?</li>
 </ul>
+<br>
+</p>
+
+<h2>Das Kleingedruckte</h2>
+<p><b>Begriffsklärung: </b><br>
+<b>Teilnehmende, Mitmacher</b> und <b>Aussteller</b> sind die, die im Projekt Schatten-Skulptura selbständig ausstellen, etwas organisieren oder anbieten. <b>Gäste</b> sind die, die uns bzw. die einzelnen Schatten-Skulptura-Ausstellungen besuchen. 
+</p>
+
