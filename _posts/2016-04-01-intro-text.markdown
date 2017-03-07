@@ -84,14 +84,37 @@ Wir freuen uns außerdem über jede Anregung und Hilfe:
 etwas organisieren oder anbieten. <b>Gäste</b> sind die, die uns bzw. die einzelnen Schatten-Skulptura-Ausstellungen besuchen. 
 </p>
 <p><b>Was heißt, bei Schatten-Skulptura mitmachen?</b></p>
-<p>JedeR kann eine Skulptur auf der Plattform der Schatten-Skulptura anmelden und ausstellen. Neben Skulpturen können auch weitere Kunst-Kategorien wie Performances, Workshops, Kunst-Flash-Mobs und Skulptura-Events angeboten werden. Diese private Ausstellung wird vom Teilnehmenden verantwortet. Die Schatten-Skulptura-Macher und Betreiber der Online-Plattform sind nicht verantwortlich für die Ausstellungen der Teilnehmer.</p>
-<br>
+<p>JedeR kann eine Skulptur auf der Plattform der Schatten-Skulptura anmelden und ausstellen. Neben Skulpturen können auch weitere Kunst-Kategorien wie Performances, Workshops, Kunst-Flash-Mobs und Skulptura-Events angeboten werden. Diese private Ausstellung wird vom Teilnehmenden verantwortet. Die Schatten-Skulptura-Macher und Betreiber der Online-Plattform sind nicht verantwortlich für die Ausstellungen der Teilnehmer.
+</p>
 <p><b>Wer kann mitmachen?</b>
 Es können nur Skulpturen angemeldet und ausgestellt werden, die <b>im Stadtgebiet von Münster</b> gezeigt werden. Der Grund dafür ist, dass wir den Aktionsradius überschaubar und erreichbar halten wollen.
 </p>
 <p><b>Wo kann man mitmachen?</b>
 Die Skulptura findet in Hinterhöfen, in Gärten, auf Straßen und den Plätzen und natürlich in Wohnzimmern und privaten Wohnungen statt. Wer in einem Mietshaus wohnt und den Garten oder Hof nutzen will, sollte das mit der Hausverwaltung absprechen. Und auch mit den Nachbarn. Dafür ist das Projekt ja auch da: Dass sich die Nachbarschaft besser kennenlernt, vielleicht zusammen etwas organisiert und ausstellt.
 <br>Wer im öffentlichen Raum etwas machen will, muss die <a target="_blanc" href="http://www.4telfest.de/index.php?id=privatpersonen0#c401">Erlaubnis zur Nutzung von öffentlichen Straßen des Ordnungsamtes</a> beachten. Das heißt hauptsächlich, dass die Gehwege frei bleiben müssen.
+</p>
+<p><b>Was ist mit den Plätzen?</b>
+Die Nutzung öffentlicher Plätze unterliegt ebenfalls der gemeingültigen städtischen Ordnung. Wer im <b>öffentlichen Raum</b> etwas machen will, muss die <a target="_blanc" href="http://www.4telfest.de/index.php?id=privatpersonen0#c401">Erlaubnis zur Nutzung von öffentlichen Straßen des Ordnungsamtes</a> beachten. 
+</p>
+<p><b>Welche Öffnungszeiten hat die Schatten-Skulptura?</b>
+Es gibt keine festen Uhrzeiten, von wann bis wann eine private Ausstellung stattfindet. Alle können ihre Zeiten selber festlegen. Wir werden die individuellen Zeiten auf der Internet-Plattform und ggf. im Faltblatt kommunizieren.
+</p>
+<p><b>Wie kann ich sehen, was neben meiner Veranstaltung noch stattfindet?</b>
+Wir werden Eure Anmeldungen Eurer Ausstellungen, Performances und Events möglichst schnell ins Internet stellen. So könnt – und solltet! – Ihr sehen, was noch stattfindet. Das macht besonders Sinn, um sich untereinander abzustimmen.
+</p>
+<p><b>Was ist, wenn etwas passiert?</b>
+Alle Teilnehmenden sind für ihre Veranstaltungen selber verantwortlich, es gibt keine Schatten-Skulptura-Versicherung. Wer mitmacht, übernimmt die Verkehrssicherungspflicht für die Gäste für die eigene private Ausstellung, sowohl im öffentlichen Raum wie im Privaten (eigener Garten, Wohnung oder Stand). Deshalb gut schauen, dass es keine Verletzungsgefahren, Stolperfallen oder ähnliches gibt. Bitte unbedingt darauf achten, dass niemand wegen einer Ausstellung oder Performance auf die Straße ausweichen muss oder sich in schlecht beleuchteten Räumen verletzt.
+</p>
+<p><b>Wer räumt den Müll weg?</b>
+Wer feiern kann, kann auch aufräumen. Alle Teilnehmenden bringen bitte Müllbeutel mit und nehmen ihren Müll und den ihrer Gäste mit nach Hause, wo sie ihn entsorgen können. Aussteller sind für ihre genutzte Ausstellungsfläche verantwortlich.
+</p>
+<p><b>Was ist mit Toiletten und Barrierefreiheit?</b>
+Um das kommunizieren zu können fragen wir bei der Anmeldung ab, wer Toiletten und Wickelmöglichkeiten für Babys hat und ob der Zugang rolligerecht ist. Falls keine Toiletten in unmittelbarer Nähe der eigenen, privaten Ausstellung zur Verfügung stehen, bitte alternative sanitäre Nutzungsmöglichkeiten anführen.
+</p>
+<p><b>Was ist mit den Kosten?</b>
+Die kosten der Schatten-Skulptura ohne Personalkosten belaufen sich auf knapp 4.000 Euro. Wir hoffen, die Kosten über eine Spendenumlage mit den Anmeldungen decken zu können. Deshalb appellieren wir an alle Teilnehmenden, die empfohlenen Spenden zu zahlen. Da es mit der Freiwilligkeit nicht immer klappt, werden wir ab und zu kontrollieren und appellieren. Die, die ohne Anmeldung oder sonstwie mitmachen, müssen nicht nur nachspenden, sondern auch das Hauptquartier des Wohnzimmer e.V. putzen.
+</p>
+<p>
 </p>
 <br>
 <p>.
