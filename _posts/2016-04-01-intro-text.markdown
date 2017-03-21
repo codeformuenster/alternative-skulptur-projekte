@@ -79,7 +79,7 @@ Wir freuen uns außerdem über jede Anregung und Hilfe:
 <li>Telefon / Email..?</li>
 </ul>
 <br>
-<p><h2>!!! Hilfe!!! Die Aktuellen Baustellen !!! Hilfe !!! Die aktuellen Bautellen !!! Hilfe!!!</h2>
+<p><h2>!!! Hilfe!!! Die aktuellen Baustellen !!! Hilfe !!! Die aktuellen Bautellen !!! Hilfe!!!</h2>
 <p>Zurzeit arbeiten wir daran, die Plattform für die Schatten-Skulptura zu entwickeln, um die Teilhabe für alle zu ermöglichen. Dabei benötigen wir unbedingt Hilfe. Bei den vielen Themen ist bestimmt auch was für Dich dabei, wo Du Dich einbringen kannst.</p>
 <p>Deinen Input kannst Du persönlich bei unseren Diensttags-Treffen im Cafe Dreiklang einbringen. Du kannst per Mail Deine Inhalte einbringen und Du kannst direkt diese Seite bearbeiten. Der Code liegt offen! Viel Spaß und gutes Gelingen.</p>
 
@@ -105,8 +105,14 @@ Wo grenzen wir uns ab? Sind Bilder, Gemälde, Photos, etc. auch für die Schatte
 <p><b>Software-Programmierung - Code for Sculptura</b>
 <br>Ziel: Die technischen Anforderungen umsetzen.
 <br>Das Formular für die Anmeldung von Skulpturen muss gebaut werden. Die Skulpturen müssen in einer OpenStreetMap angezeigt werden. Skulpturen sollen filterbar sein nach verschiedenen Kriterien wie Zeit, Skulptur-Kategorie, ggf. Ort, etc. Denkbar wäre auch, Redaktionelle Highlights herauszuarbeiten. 
+<br>
 <p>
-
+<p><b>Öffentlichkeitsarbeit - Marketing</b>
+<br>Ziel: Das Projekt in der Öffentlichkeit bekannt machen und Einträge in der Aussteller-Plattform generieren.
+<br>Es braucht eine kleine PR-Strategie aus verschiedenen Säulen: Presse-Texte und Presse-Gespräche, Soziale Medien, Flyer, klassische Mund-zu-Mund-Propagande, Multiplikatoren ansprechen und als Partner gewinnen, etc. 
+<br>Leute zum Mitmachen zu gewinnen ist nochmal eine eigene Baustelle. Auch hier brauchen wir Unterstützung und Feedback, wie wir hier besser werden können.
+<br>
+<br>
 
 
 
