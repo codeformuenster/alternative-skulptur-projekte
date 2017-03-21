@@ -113,7 +113,11 @@ Wo grenzen wir uns ab? Sind Bilder, Gemälde, Photos, etc. auch für die Schatte
 <br>Leute zum Mitmachen zu gewinnen ist nochmal eine eigene Baustelle. Auch hier brauchen wir Unterstützung und Feedback, wie wir hier besser werden können.
 <br>
 <br>
-
+<p><b>Skulptura-Projekt-Management - Koordination
+<br>Ziel: Das Projekt zusammen halten, koordinieren, kommunizieren, managen, dass es läuft.
+<br>Diese Plattform soll am Ende ein Projekt-Management so gut wie überflüssig machen, aber bis dahin muß man sich um die Baustellen kümmern und organiseren. Auch hier ist jede Hilfe willkommen. Oder: Einfach machen. Arsch Huh!
+<br>
+<br>
 
 
 <h2>Das Kleingedruckte</h2>
