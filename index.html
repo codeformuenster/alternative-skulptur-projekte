@@ -7,7 +7,7 @@ layout: default
 
 	<meta charset="utf-8">
 
-	<title>Alternative Skulpturprojekte Münster</title>
+	<title>Schatten-Skulptura</title>
 
 	<!-- Behavioral Meta Data -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -121,7 +121,7 @@ layout: default
 
 <img src="IMG/schattenskulpturen.jpg" width="100%"/>
 <br />
-						Schattenskulpturen - die alternativen Skulptur-Projekte</div>
+						Schatten-Skulptura - Das Mitmach-Skulpturprojekt </div>
             <!-- div id="wrapper-learnmore">
             	<div class="bouton-learnmore object">
         			<div class="text-learnmore object">Learn more</div>
@@ -181,7 +181,7 @@ layout: default
 <!-- headline -->
 <div class="headliner">
 	<div class="outerh1">
-		<h1  class="wow bounceInRight" data-wow-offset="10">Unsere Idee - das alternative Skulptur-Projekt</h1>
+		<h1  class="wow bounceInRight" data-wow-offset="10">Unsere Idee - Das Mitmach-Skulptur-Projekt</h1>
 	</div>
 </div>
 
@@ -201,7 +201,7 @@ layout: default
 <!-- headline -->
 <div class="headliner">
 	<div class="outerh1">
-		<h1  class="wow bounceInRight" data-wow-offset="10">Ausstellungsorte des Alternativen Skulpturpojekts Münster</h1>
+		<h1  class="wow bounceInRight" data-wow-offset="10">Ausstellungsorte des Mitmach-Skulpturpojekts Münster</h1>
 	</div>
 </div>
 
@@ -212,12 +212,8 @@ layout: default
 
 		var mymap = L.map('mapid').setView([51.962155, 7.625497], 13);
 
-		L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw', {
-			maxZoom: 18,
-			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-			id: 'mapbox.streets'
+		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+		    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 		}).addTo(mymap);
 
 		L.marker([51.962155, 7.625497]).addTo(mymap)
@@ -574,15 +570,6 @@ SS.addEventListener('click', function() {
 });
 */
 
-var WC = document.getElementById('wrapper-cross');
-
-WC.addEventListener('click', function() {
-             $("#main-wrapper-menu").animate({'height':'0'},500);
-			 $(".recent-post").fadeOut(250);
-		     $(".category-post").fadeOut(250);
-			 $("#wrapper-plus").delay(1000).fadeIn(250);
-});
-
 /*BUTTON ARROW*/
 
 $(document).on('touchstart mouseover', '#fleche1', function(event){
@@ -661,34 +648,6 @@ $(document).on('touchend mouseout', '#wrapper-plus', function(event){
         if(event.handled !== true) {
 
 			 $("#wrapper-plus").stop().animate({'opacity':'1','scale':'1'},150);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON CROSS*/
-
-$(document).on('touchstart mouseover', '#wrapper-cross', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#wrapper-cross").stop().animate({'opacity':'0.75','scale':'1.1'},150);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#wrapper-cross', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#wrapper-cross").stop().animate({'opacity':'1','scale':'1'},150);
 
             event.handled = true;
         } else {
