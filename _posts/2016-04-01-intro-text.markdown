@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Unsere Idee - Die alternativen Skulpturprojekte"
+title:  "Unsere Idee - Die Schatten-Skulptura"
 date:   2016-04-13 20:05:35 +0200
 categories: intro
 image:  http://49.media.tumblr.com/e2f61d07599c15bf363d5344c7974c48/tumblr_o2pdrvKEHM1r2geqjo1_540.gif
@@ -34,9 +34,9 @@ Sie ermöglichen die <i>Partizipation von Bürgern/innen an den politischen und 
 Die Eckpunkte unserer Idee:
 </p>
 <ul>
-<li><b>Die Schatten-Skulptura ist eine Ergänzung zur offiziellen Skulpura mitsamt Eventkalender und Übersichtskarte.</b></li>
+<li><b>Die Schatten-Skulptura ist eine Ergänzung zur den offiziellen Skulpur-Projekten mitsamt Eventkalender und Übersichtskarte.</b></li>
 <li>Wir sind offen für alle! Jede Gruppe, jede Person und Organisation kann im Rahmen des Skulpura-Schattens eigene Skulpturen ausstellen, Skulptur-Ausstellungen organisieren, dazu Events durchführen, und, und, und.</li>
-<li>Es soll einen vorformulierten Rahmen geben (in Abstimmung mit der offiziellen Skulptura) für die Schatten-Skulpura, aber: Es gibt kein Gremium, das Angebote ablehnt. Im Gegenzug ist jeder „Veranstalter“ für seine Angebote selbst verantwortlich.</li>
+<li>Wir erarbeiten gerade einen Rahmen (in Abstimmung mit den offiziellen SkulpturProjekten) für die Schatten-Skulpura, aber: Es gibt kein Gremium, das Angebote ablehnt. Im Gegenzug ist jeder „Veranstalter“ für seine Angebote selbst verantwortlich.</li>
 <li>Neue Medien liegen uns am Herzen. Wir möchten neben "analogen" Skulpturen zusätzlich eine digitale Skulpturausstellung schaffen mit Kunst im Internet.</li>
 <li>Bürgerinnen und Bürger können selbständig oder, falls wir genügend Ressourcen finden um das zu organisieren, bei technisch begleiteten Hackathons digitale Skulpturen erstellen und auf die zentrale Internetplattform laden.</li>
 </ul>
@@ -56,12 +56,12 @@ Die Eckpunkte unserer Idee:
 Man könnte außerdem zusätzlich zur Internet-Plattform eine Print-Publikation veröffentlichen mit allen alternativen Skulpturen und einem Eventkalender, um den alternativen Teil der Skulpturausstellung auch für Besucher/innen ohne mobiles Internet erreichbar zu machen.
 -->
 </p>
-<h2>Wie kann man mitmachen?</h2>
+<h2>Wie kann man mitmachen, die Idee der Schatten-Skulptura umzusetzen?</h2>
 <a href="http://codeformuenster.org/opendataday/">
 <img style="float:left;margin-right:15px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABmUExURUdwTAAAAAAAAPA3EAAAAAAAAAAAAAAAAAAAAAAAAP///83NzfLw79LS0mFhYeEzDkBAQNPT02AVCbu7u3p6evmqm7coCP7n4/JNKvvEuYUZBKamphwcHBkBAPaHcPRoTNWViaVeUE35a2gAAAAKdFJOUwAf//+ZQtvwyHJVR5WiAAADi0lEQVRYw+2Y626rMAyARwokKRTCvfS+93/JQxIHcnHoqvNr0ixNWhvz1TeMzdfXn/xe4YxSxrOUUUIoS7O4ZsaNjr7GOUwY8YRFUFmomVjHwekiaRJikhRRzC2/CCZ5QEpyVJE7Bt2q6kaI6Luiu/ZCKdAs4SnLZURylvIko+prqVN0UkdfQ9gKkgpV3/dVV5yKQv5dbyQit2uhpCk6dYn8zgeBihaBc4Stc/VByjWXU1Q4qCpckusaD1U0595exvqwSD1e2juJqG3BzuTHLlBox4MjYxuQOvnNVnKp77zkXOpDIPXFJ0nN1IlR7562CEZJ65BOfZB+y7Oe3I1Tz8c8TcfjNM2Pp3Hwbv+o9I06IDsVYM55WBibTMNZ+9faCQ7qqNs434ABQHk6lfAvoL43UueA5C1kjnrgPMzFx2YJxWrVA0g96poV7Iq0SnUxp2ya0gbpzwOEvDLx9AtSAOeu4jMvF55WgHYNPs8qTncgCSf9qiCvOu+j4awgI+azIo26Cq5uQSrfhK4f8MsNsvt52OpJOJ6BSZWsUunY4/hGZMRrcwVxmrJpoReZ9/IdqJRVcDEtGW2itXLMdypwcACTkIacqDYqI3R2K8cXfXbWUVpqKGjsKkyjjrQBVVUZAQ06cV6AtEmyj8l0TFspViIk6bNJaspOFz6zOHj2tC/CSFqe4BsPQCnkzMl9nDRA3tIAxCBE8/FHpBmCxAJQDsmfjj8iTVAAeQCiK8itorJq6/McVFIJIIqCZCqCm7WsVW35BSB1naYWgpr/B6GuiQ9diwVb3MRnwY6kP8LZST9ekDGOakl4QaK3SJSzc4tk9k2rw41y9Nl60yIzK/XbCG6P20YoMvimfmPD/XIbW4pN0FarVT1HoPFRZ2urRadx+nnzz/Etgnz6OEJytvZ/5wHZuA/IxntAIp3fMunnj+yYQRAlbIhosCEiFqH1efvaxpqTO9aoUtRjzYtEcm9tAMVrZ9Aq9aD1UtMsjS5/MG6/3o1+Lxj5+K5Bi9K7YbSDAZvuGyTHtnU8HuZpMaec5sEaj6ti1yRmDFLjRGRgr9vt57C2Zg/JsBdFVwjr9+geqFtXKnypIWTTo1HXRNc5G59csxbLarlmOfuf1mPxYMO6y2lsFaWcY2txYJJe5eVijqJybuvF7hHzGgHGwsxnUfOCgiGvDsIXGzm3X19Y67rVDXkevMz4k98o/wBhYG9yu+/aywAAAABJRU5ErkJggg==" />
-<b>Wir treffen uns am Samstag, den 4. März
-<br />beim Tag der Offenen Daten - Forum zur Bürgerbeteiligung.
-<br />Ab 13 Uhr im Forum der VHS Münster. [Details klicke hier]
+<b>Wir treffen uns immer Dienstags um 19 Uhr im Cafe Dreiklang an der Wolbecker Straße
+<br />um die momentanen Baustellen im Projekt zu bearbeiten.
+<br />Darüber hinaus erreichst du den Wohnzimmer e.V. per Mail: kontakt@wohnzimmer-ev.de
 <br />Alle Interessierten sind herzlich eingeladen!</b>
 </a>
 <br /><br />
@@ -91,10 +91,18 @@ Es können nur Skulpturen angemeldet und ausgestellt werden, die <b>im Stadtgebi
 </p>
 <p><b>Wo kann man mitmachen?</b>
 Die Skulptura findet in Hinterhöfen, in Gärten, auf Straßen und den Plätzen und natürlich in Wohnzimmern und privaten Wohnungen statt. Wer in einem Mietshaus wohnt und den Garten oder Hof nutzen will, sollte das mit der Hausverwaltung absprechen. Und auch mit den Nachbarn. Dafür ist das Projekt ja auch da: Dass sich die Nachbarschaft besser kennenlernt, vielleicht zusammen etwas organisiert und ausstellt.
-<br>Wer im öffentlichen Raum etwas machen will, muss die <a target="_blanc" href="http://www.4telfest.de/index.php?id=privatpersonen0#c401">Erlaubnis zur Nutzung von öffentlichen Straßen des Ordnungsamtes</a> beachten. Das heißt hauptsächlich, dass die Gehwege frei bleiben müssen.
+<br>Wer im öffentlichen Raum etwas machen will, muss die 
+# <a target="_blanc" href="http://www.4telfest.de/index.php?id=privatpersonen0#c401">
+Erlaubnis zur Nutzung von öffentlichen Straßen des Ordnungsamtes
+#</a> 
+beachten. Das heißt hauptsächlich, dass die Gehwege frei bleiben müssen.
 </p>
 <p><b>Was ist mit den Plätzen?</b>
-Die Nutzung öffentlicher Plätze unterliegt ebenfalls der gemeingültigen städtischen Ordnung. Wer im <b>öffentlichen Raum</b> etwas machen will, muss die <a target="_blanc" href="http://www.4telfest.de/index.php?id=privatpersonen0#c401">Erlaubnis zur Nutzung von öffentlichen Straßen des Ordnungsamtes</a> beachten. 
+Die Nutzung öffentlicher Plätze unterliegt ebenfalls der gemeingültigen städtischen Ordnung. Wer im <b>öffentlichen Raum</b> etwas machen will, muss die 
+# <a target="_blanc" href="http://www.4telfest.de/index.php?id=privatpersonen0#c401">
+Erlaubnis zur Nutzung von öffentlichen Straßen des Ordnungsamtes
+#</a> 
+beachten. 
 </p>
 <p><b>Welche Öffnungszeiten hat die Schatten-Skulptura?</b>
 Es gibt keine festen Uhrzeiten, von wann bis wann eine private Ausstellung stattfindet. Alle können ihre Zeiten selber festlegen. Wir werden die individuellen Zeiten auf der Internet-Plattform und ggf. im Faltblatt kommunizieren.
@@ -112,7 +120,7 @@ Wer feiern kann, kann auch aufräumen. Alle Teilnehmenden bringen bitte Müllbeu
 Um das kommunizieren zu können fragen wir bei der Anmeldung ab, wer Toiletten und Wickelmöglichkeiten für Babys hat und ob der Zugang rolligerecht ist. Falls keine Toiletten in unmittelbarer Nähe der eigenen, privaten Ausstellung zur Verfügung stehen, bitte alternative sanitäre Nutzungsmöglichkeiten anführen.
 </p>
 <p><b>Was ist mit den Kosten?</b>
-Die kosten der Schatten-Skulptura ohne Personalkosten belaufen sich auf knapp 4.000 Euro. Wir hoffen, die Kosten über eine Spendenumlage mit den Anmeldungen decken zu können. Deshalb appellieren wir an alle Teilnehmenden, die empfohlenen Spenden zu zahlen. Da es mit der Freiwilligkeit nicht immer klappt, werden wir ab und zu kontrollieren und appellieren. Die, die ohne Anmeldung oder sonstwie mitmachen, müssen nicht nur nachspenden, sondern auch das Hauptquartier des Wohnzimmer e.V. putzen.
+Die kosten der Schatten-Skulptura ohne Personalkosten belaufen sich auf einen vierstelligen Betrag. Wir hoffen, die Kosten über eine Spendenumlage und mit den Anmeldungen decken zu können. Deshalb appellieren wir an alle Teilnehmenden, die empfohlenen Spenden zu zahlen. Da es mit der Freiwilligkeit nicht immer klappt, werden wir ab und zu kontrollieren und appellieren. Die, die ohne Anmeldung oder sonstwie unsozial mitmachen, müssen nicht nur nachspenden, sondern auch das Hauptquartier des Wohnzimmer e.V. putzen.
 </p>
 <p>
 </p>
