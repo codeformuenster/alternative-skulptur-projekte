@@ -11,8 +11,8 @@ column:
 
 <h2>Das Kleingedruckte</h2>
 <p><b>Begriffsklärung: </b></p>
-<p><b>Teilnehmende, Mitmacher</b> und <b>Aussteller</b> sind die, die im Projekt Schatten-Skulptura selbständig ausstellen,
-etwas organisieren oder anbieten. <b>Gäste</b> sind die, die uns bzw. die einzelnen Schatten-Skulptura-Ausstellungen besuchen.
+<p><b>Teilnehmende, Mitmacher</b> und <b>Aussteller</b> sind die, die im Projekt Schatten-Skulptura selbständig ausstellen, 
+etwas organisieren oder anbieten. <b>Gäste</b> sind die, die uns bzw. die einzelnen Schatten-Skulptura-Ausstellungen besuchen. 
 </p>
 <p><b>Was heißt, bei Schatten-Skulptura mitmachen?</b></p>
 <p>JedeR kann eine Skulptur auf der Plattform der Schatten-Skulptura anmelden und ausstellen. Neben Skulpturen können auch weitere Kunst-Kategorien wie Performances, Workshops, Kunst-Flash-Mobs und Skulptura-Events angeboten werden. Diese private Ausstellung wird vom Teilnehmenden verantwortet. Die Schatten-Skulptura-Macher und Betreiber der Online-Plattform sind nicht verantwortlich für die Ausstellungen der Teilnehmer.
@@ -22,18 +22,12 @@ Es können nur Skulpturen angemeldet und ausgestellt werden, die <b>im Stadtgebi
 </p>
 <p><b>Wo kann man mitmachen?</b>
 Die Skulptura findet in Hinterhöfen, in Gärten, auf Straßen und den Plätzen und natürlich in Wohnzimmern und privaten Wohnungen statt. Wer in einem Mietshaus wohnt und den Garten oder Hof nutzen will, sollte das mit der Hausverwaltung absprechen. Und auch mit den Nachbarn. Dafür ist das Projekt ja auch da: Dass sich die Nachbarschaft besser kennenlernt, vielleicht zusammen etwas organisiert und ausstellt.
-<br />Wer im öffentlichen Raum etwas machen will, muss die
-# <a target="_blanc" href="http://www.4telfest.de/index.php?id=privatpersonen0#c401">
-Erlaubnis zur Nutzung von öffentlichen Straßen des Ordnungsamtes
-#</a>
-beachten. Das heißt hauptsächlich, dass die Gehwege frei bleiben müssen.
+<br>Wer im öffentlichen Raum etwas machen will, muss die <a target="_blanc" href="http://www.stadt-muenster.de/ordnungsamt/startseite.html">Erlaubnis zur Nutzung von öffentlichen Straßen des Ordnungsamtes</a> 
+beachten. 
 </p>
-<p><b>Was ist mit den Plätzen?</b>
-Die Nutzung öffentlicher Plätze unterliegt ebenfalls der gemeingültigen städtischen Ordnung. Wer im <b>öffentlichen Raum</b> etwas machen will, muss die
-# <a target="_blanc" href="http://www.4telfest.de/index.php?id=privatpersonen0#c401">
-Erlaubnis zur Nutzung von öffentlichen Straßen des Ordnungsamtes
-#</a>
-beachten.
+<p><b>Was ist mit öffentlichen Plätzen?</b>
+Die Nutzung öffentlicher Plätze unterliegt ebenfalls der gemeingültigen städtischen Ordnung. Wer im <b>öffentlichen Raum</b> etwas machen will, muss ebenfalls die <a target="_blanc" href="http://www.stadt-muenster.de/ordnungsamt/startseite.html">
+Erlaubnis zur Nutzung von öffentlichen Straßen des Ordnungsamtes</a> beachten. 
 </p>
 <p><b>Welche Öffnungszeiten hat die Schatten-Skulptura?</b>
 Es gibt keine festen Uhrzeiten, von wann bis wann eine private Ausstellung stattfindet. Alle können ihre Zeiten selber festlegen. Wir werden die individuellen Zeiten auf der Internet-Plattform und ggf. im Faltblatt kommunizieren.
@@ -53,4 +47,6 @@ Um das kommunizieren zu können fragen wir bei der Anmeldung ab, wer Toiletten u
 <p><b>Was ist mit den Kosten?</b>
 Die kosten der Schatten-Skulptura ohne Personalkosten belaufen sich auf einen vierstelligen Betrag. Wir hoffen, die Kosten über eine Spendenumlage und mit den Anmeldungen decken zu können. Deshalb appellieren wir an alle Teilnehmenden, die empfohlenen Spenden zu zahlen. Da es mit der Freiwilligkeit nicht immer klappt, werden wir ab und zu kontrollieren und appellieren. Die, die ohne Anmeldung oder sonstwie unsozial mitmachen, müssen nicht nur nachspenden, sondern auch das Hauptquartier des Wohnzimmer e.V. putzen.
 </p>
+</p>
+<p>
 <p>
