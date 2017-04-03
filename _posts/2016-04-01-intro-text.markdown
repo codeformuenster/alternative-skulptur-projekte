@@ -14,7 +14,7 @@ column: intro
 Vom 10.06.2017 bis zum 01.10.2017 finden die Skulptur Projekte in Münster statt.
 </p>
 <b>
-Zu der renommierten, kuratierten Ausstellung mit Werken internationaler Künstler möchten wir eine begleitende und ergänzende Skulptur-Ausstellung organisieren, mit dem Arbeitstitel "Schatten-Skulptura"</b>.
+Zu der renommierten, kuratierten Ausstellung mit Werken internationaler Künstler möchten wir eine eigene, selbständige und ergänzende Mitmach-Skulptur-Ausstellung organisieren, mit dem Arbeitstitel "Schatten-Skulptura" Die Schatten-Skulptura ist NICHT Teil der Skulptur-Projekte.</b>.
 
 
 <h2>Warum?</h2>
