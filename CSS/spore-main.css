@@ -130,9 +130,9 @@ html,body{
 
 #fleche1{
 	position:absolute;
-	background-image: url(/IMG/ancre.svg);
+/*	background-image: url(/IMG/ancre.svg);
 	background-repeat:no-repeat;
-	width:40px;
+*/	width:40px;
 	height:40px;
 	top:90%;
 	left:50%;

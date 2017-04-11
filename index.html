@@ -18,10 +18,85 @@ layout: default
     <link href="CSS/spore-animate.css" rel="stylesheet" />
     <link href="CSS/spore-main.css" rel="stylesheet" />
 
+
+	<script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
   	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
   	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 
+
+	<!-- fullcalendar -->
+	<link rel='stylesheet' href='https://fullcalendar.io/js/fullcalendar-3.3.1/fullcalendar.min.css' />
+	<script src='//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js'></script>
+	<script src='https://fullcalendar.io/js/fullcalendar-3.3.1/fullcalendar.min.js'></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.css" type="text/css" media="screen" />
+	<!-- /fullcalendar -->
+
+	<!-- display events calendar "fullcalendar" -->
+	<script>
+
+	$(function() {
+		$.getJSON("https://crossorigin.me/https://event-api.codeformuenster.org/v1/events?lat=51.961&lon=7.614",function(result){
+
+			var events = [];
+			$.each(result, function(i, termin){
+		//    console.log(i,termin);
+
+				var start = termin.startDate.substr(0,10);
+				events.push({
+					title:termin.name,
+					start:start,
+					description:termin.description
+				})
+		  });
+
+			$('#fullcalendar').fullCalendar({
+				header: {
+					left: 'prev,next today',
+					center: 'title',
+					right: 'month,agendaWeek,agendaDay,listWeek'
+				},
+				editable: false,
+				eventLimit: true, // allow "more" link when too many events
+				navLinks: true,
+				events: events,
+				eventClick: function(calEvent, jsEvent, view) {
+
+					var dateThing = new Date(calEvent.start);
+					var startDate = dateThing.getDay() + "." + dateThing.getMonth() + "." + dateThing.getFullYear()
+					//	+ dateThing.getHours() + ":" + dateThing.getMinutes();
+
+					$('#ex1 .ehl').html(calEvent.title);
+					$('#ex1 p').html(calEvent.description);
+					$('#ex1 i').html(startDate);
+
+					$("#ex1").modal({
+				   fadeDuration: 100
+				 });
+
+		        // change the border color just for fun
+		        $(this).css('border-color', 'red');
+		    }
+			});
+
+			$("#terminloader").hide()
+
+		});
+
+	});
+	</script>
+
+
+
+
+
 <style>
+#terminloader { display:block;margin-top:100px auto 0 auto;}
+
+.fc-event-container {cursor:pointer}
+#ex1.modal {max-width:800px}
 .myButton {
 	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
@@ -63,8 +138,40 @@ layout: default
 	top:1px;
 }
 </style>
+
+<style type="text/css">
+  .modal a.close-modal[class*="icon-"] {
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    line-height: 1.25;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0;
+    background: #900;
+    border: 2px solid #fff;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -o-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -moz-box-shadow:    1px 1px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    box-shadow:         1px 1px 5px rgba(0,0,0,0.5);
+  }
+</style>
+
 </head>
 <body>
+
+	<!-- Modal HTML embedded directly into document -->
+	<div class="modal" id="ex1" style="display:none;">
+		<i>Date</i>
+		<h1 class="ehl">Überschrift</h1>
+	  <p>Thanks for clicking.  </p>
+	</div>
+
 
 <!-- MENU TAB
 <div id="main-wrapper-menu">
@@ -240,6 +347,13 @@ layout: default
 
 
 	<div class="calage"></div>
+</div>
+
+<!-- div for fullcalendar -->
+<div id="wrapper-A3" class="object">
+	<div id="fullcalendar" style="width:100%;height:850px;background-color:#eee">
+		<div id="terminloader">Termine werden geladen..</span>
+	</div>
 </div>
 
 
@@ -508,7 +622,8 @@ center a {
 -->
 <!-- SCRIPT -->
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script -->
+
     <script type="text/javascript" src="JS/jquery.scrollTo.min.js"></script>
     <script type="text/javascript" src="JS/jquery.localScroll.min.js"></script>
     <script type="text/javascript" src="JS/jquery-animate-css-rotate-scale.js"></script>
@@ -521,7 +636,10 @@ window.addEventListener('load', function() {
 }, false);
 </script>
 
-	<script>
+
+
+
+<script>
 
 	$(window).on('beforeunload', function(){
 		$(".blank").fadeIn(300);
