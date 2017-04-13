@@ -99,9 +99,9 @@ Wo grenzen wir uns ab? Sind Bilder, Gemälde, Photos, etc. auch für die Schatte
 <br>Ziel: Die gesamte Plattform ansprechend designen. Alle Text kurz und leicht verständlich gestalten.
 <br>Alle Artikel müssen überarbeitet werden. Hinzu kommen Artikel zu: Digitale Kunst, etc.
 <br>
-<p><b>Skulptura-Projekt-Management - Koordination
+<p><b>Skulptura-Projekt-Management - Koordination</b>
 <br>Ziel: Das Projekt zusammen halten, koordinieren, kommunizieren, managen, dass es läuft.
-<br>Diese Plattform soll am Ende ein Projekt-Management so gut wie überflüssig machen, aber bis dahin muß man sich um die Baustellen kümmern und organiseren. Auch hier ist jede Hilfe willkommen. Oder: Einfach machen. Arsch Huh!
+<br>Diese Plattform soll am Ende ein Projekt-Management so gut wie überflüssig machen, aber bis dahin muß man sich um die Baustellen kümmern und organiseren. Auch hier ist jede Hilfe willkommen. Oder: Einfach machen. Arsch Huh!</p>
 <br>
 <b>Die Allgemeinen Nutzungsbedingungen - ANBs</b>
 <br>Ziel: Eine rechtlich sichere Formulierung schaffen für die ANBs. Die Betreiber der Plattform der Schatten-Skulptura sind nicht für die Ausstellungen der privaten Aussteller und Teilnehmerinnen verantwortlich, sondern die jeweiligen Aussteller selber. 
