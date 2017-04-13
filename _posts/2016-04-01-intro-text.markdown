@@ -87,7 +87,7 @@ Wir freuen uns außerdem über jede Anregung und Hilfe:
 <b>Der künstlerische Rahmen - Die Abgrenzung der Schatten-Skulptura</b>
 <br>Ziel: Eine leicht verständliche Definition der zugelassenen Kunst für die Schatten-Skulptura.
 Bisherige Kategorien sind:
-<p>Skulpturen, Events und Happenings, Performances, Workshops, Kunst-Fash-Mobs, etc.
+Skulpturen, Events und Happenings, Performances, Workshops, Kunst-Fash-Mobs, etc.
 Wo grenzen wir uns ab? Sind Bilder, Gemälde, Photos, etc. auch für die Schatten-Skulptura geeignet?
 <p>
 <p><b>Öffentlichkeitsarbeit - Marketing</b>
@@ -101,12 +101,12 @@ Wo grenzen wir uns ab? Sind Bilder, Gemälde, Photos, etc. auch für die Schatte
 <br>
 <p><b>Skulptura-Projekt-Management - Koordination</b>
 <br>Ziel: Das Projekt zusammen halten, koordinieren, kommunizieren, managen, dass es läuft.
-<br>Diese Plattform soll am Ende ein Projekt-Management so gut wie überflüssig machen, aber bis dahin muß man sich um die Baustellen kümmern und organiseren. Auch hier ist jede Hilfe willkommen. Oder: Einfach machen. Arsch Huh!</p>
-<br>
-<b>Die Allgemeinen Nutzungsbedingungen - ANBs</b>
+<br>Diese Plattform soll am Ende ein Projekt-Management so gut wie überflüssig machen, aber bis dahin muß man sich um die Baustellen kümmern und organiseren. Auch hier ist jede Hilfe willkommen. Oder: Einfach machen. Arsch Huh!
+</p>
+<p><b>Die Allgemeinen Nutzungsbedingungen - ANBs</b>
 <br>Ziel: Eine rechtlich sichere Formulierung schaffen für die ANBs. Die Betreiber der Plattform der Schatten-Skulptura sind nicht für die Ausstellungen der privaten Aussteller und Teilnehmerinnen verantwortlich, sondern die jeweiligen Aussteller selber. 
-<p>Weiter muß deutlich werden, dass für Aktionen im öffentlichen Raum ggf. Genehmigungen beim Ordnungsamt und weiteren Behörden notwendig werden könnten. Darüber hinaus gehören weitere Standards in die ANBs.
-<p>
+Weiter muß deutlich werden, dass für Aktionen im öffentlichen Raum ggf. Genehmigungen beim Ordnungsamt und weiteren Behörden notwendig werden könnten. Darüber hinaus gehören weitere Standards in die ANBs.
+</p>
 <b>Die Teilnahmebedingungen - leicht verständlich</b>
 <br>Ziel: In leicht verständlicher Form die Teilnahmebedingunen erklären.
 Im Endeffekt müssen hier die ANBs allgemeinverständlich verpackt werden. Und es wäre schön, wenn ein Aufforderungscharakter aufkommt.
