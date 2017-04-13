@@ -38,13 +38,13 @@ layout: default
 	<script>
 
 	$(function() {
-		$.getJSON("https://event-api.codeformuenster.org/v1/events?lat=51.961&lon=7.614",function(result){
+		$.getJSON("https://event-api.codeformuenster.org/v0/events?lat=51.961&lon=7.614",function(result){
 
 			var events = [];
 			$.each(result, function(i, termin){
 		//    console.log(i,termin);
 
-				var start = termin.startDate.substr(0,10);
+				var start = termin.start_date.substr(0,10);
 				events.push({
 					title:termin.name,
 					start:start,
@@ -343,6 +343,7 @@ font-family: 'Press Start 2P', monospace;
 </div>
 
 <div id="wrapper-A3" class="object">
+	<a name="karte"></a>
 
 	<div id="mapid" style="width: 100%; height: 400px;"></div>
 	<script>
