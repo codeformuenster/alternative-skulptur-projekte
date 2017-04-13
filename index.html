@@ -38,7 +38,7 @@ layout: default
 	<script>
 
 	$(function() {
-		$.getJSON("https://crossorigin.me/https://event-api.codeformuenster.org/v1/events?lat=51.961&lon=7.614",function(result){
+		$.getJSON("https://event-api.codeformuenster.org/v1/events?lat=51.961&lon=7.614",function(result){
 
 			var events = [];
 			$.each(result, function(i, termin){
@@ -139,6 +139,8 @@ layout: default
 }
 </style>
 
+<link href="https://fonts.googleapis.com/css?family=Orbitron|Pacifico|Press+Start+2P|VT323" rel="stylesheet">
+
 <style type="text/css">
   .modal a.close-modal[class*="icon-"] {
     top: -10px;
@@ -160,16 +162,54 @@ layout: default
     -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
     box-shadow:         1px 1px 5px rgba(0,0,0,0.5);
   }
+
+	.header{
+		width: 100%;
+		position:fixed;
+		top: 0px;
+		background-color:black;
+		color:white;
+		z-index:1000000;
+		text-align:center;
+		min-height:55px;
+	}
+	.header a {
+		margin:12px 20px;
+		display:block;
+		float:right;
+	}
+	#schattenskulptura {
+		margin-top:8px;
+		margin-left:10px;
+		float:left;
+		font-size:35px;
+		/*font-family: 'Pacifico', cursive;
+		font-family: 'VT323', monospace;
+*/
+font-family: 'Press Start 2P', monospace;
+
+}
 </style>
 
 </head>
 <body>
 
+<div class="header">
+	<div id="schattenskulptura">
+		SchattenSkulptura
+
+	</div>
+	{% for post in site.categories.kleingedrucktes %}
+			<a href="{{ post.url }}">{{ post.title }}</a>
+	{% endfor %}
+	<br clear="both" />
+</div>
+
 	<!-- Modal HTML embedded directly into document -->
 	<div class="modal" id="ex1" style="display:none;">
 		<i>Date</i>
-		<h1 class="ehl">Überschrift</h1>
-	  <p>Thanks for clicking.  </p>
+		<h1 class="ehl">Termin</h1>
+	  <p>Hier Terminbeschreibung</p>
 	</div>
 
 
@@ -201,8 +241,6 @@ layout: default
     </div>
 </div>
 
-<div id="wrapper-plus" class="object"></div>
-
 -->
 <!-- HEADER -->
 
@@ -229,22 +267,13 @@ layout: default
 <img src="IMG/schattenskulpturen.jpg" width="100%"/>
 <br />
 						Schatten-Skulptura - Das Mitmach-Skulpturprojekt </div>
-            <!-- div id="wrapper-learnmore">
-            	<div class="bouton-learnmore object">
-        			<div class="text-learnmore object">Learn more</div>
-    			</div>
-            </div  -->
            <a href="#ancre"><div id="fleche1"></div></a>
    	    </div>
 
-<!--
-		<div id="wrapper-plus" class="object"></div>
--->
 	</div>
 
 </div>
 
-<a name="ancre"></a>
 <style>
 	div#text-2 span {color:#999;}
 	span.copyright {
@@ -308,6 +337,7 @@ layout: default
 <!-- headline -->
 <div class="headliner">
 	<div class="outerh1">
+		<a name="termine"></a>
 		<h1  class="wow bounceInRight" data-wow-offset="10">Ausstellungsorte des Mitmach-Skulpturpojekts Münster</h1>
 	</div>
 </div>
@@ -406,40 +436,6 @@ layout: default
 	<div class="calage"></div>
 </div>
 
-
-<!-- PART 4 - BOUTON PAGE 1-4
-<div id="A4" class="object">
-
-	<div id="wrapper-A4" class="wow bounceInRight" data-wow-offset="10">
-
-
-        <div id="page1" class="object">
-        	<div id="text-page1"><strong>1</strong></div>
-        </div>
-
-        <div id="main-page2">
-        	<div id="page2" class="object">
-          		<div id="text-page2" class="object"><strong>2</strong></div>
-        	</div>
-        </div>
-
-        <div id="main-page3">
-        	<div id="page3" class="object">
-            	<div id="text-page3" class="object"><strong>3</strong></div>
-        	</div>
-        </div>
-
-		<div id="main-page4">
-        	<div id="page4" class="object">
-            	<div id="text-page4" class="object"><strong>4</strong></div>
-        	</div>
-		</div>
-
-    </div>
-
-</div>-->
-
-
 <!-- PART 5 - SUB MENU AND SHORTCUTS -->
 
 <div id="A5">
@@ -534,107 +530,18 @@ center a {
 </div>
 
 
-<!-- PART 5 BIS - SUB MENU AND RELATED NUMBERS
 
-<div id="A5b">
-
-	<div id="wrapper-A5b">
-
-        <div id="wrapper-A5b-part-left">
-        	<div id="A5b-left" class="wow flipInX" data-wow-offset="10">
-    			<div id="left-A5b-text-post">14</div>
-            	<div id="left-A5b-line-post"></div>
-            	<div id="left-A5b-line2-post"></div>
-				<div id="left-A5b-text-post-1"><strong>Posts</strong></div>
-        	</div>
-        </div>
-
-        <div id="wrapper-A5b-part-mid">
-        	<div id="A5b-middle" class="wow flipInX" data-wow-offset="10" data-wow-delay="0.2s">
-    			<div id="mid-A5b-text-post">235</div>
-            	<div id="mid-A5b-line-post"></div>
-            	<div id="mid-A5b-line2-post"></div>
-				<div id="mid-A5b-text-post-1"><strong>Likes</strong></div>
-        	</div>
-        </div>
-
-        <div id="wrapper-A5b-part-right">
-        	<div id="A5b-right" class="wow flipInX" data-wow-offset="10" data-wow-delay="0.4s">
-    			<div id="right-A5b-text-post">6509</div>
-            	<div id="right-A5b-line-post"></div>
-            	<div id="right-A5b-line2-post"></div>
-				<div id="right-A5b-text-post-1"><strong>Views</strong></div>
-           </div>
-        </div>
-
-    <div class="A5b-calage"></div>
-	</div>
-
-</div>
-
-
-<div id="A6">
-
-<div id="wrapper-social" class="wow bounceInLeft" data-wow-offset="10">
-
-    	<div id="main-behance">
-    		<div id="cadre-behance" class="object">
-        		<div id="behance" class="object">E</div>
-    		</div>
-        </div>
-
-        <div id="main-dribbble">
-    		<div id="cadre-dribbble" class="object">
-      	  		<div id="dribbble" class="object">D</div>
-    		</div>
-        </div>
-
-		<div id="main-facebook">
-    		<div id="cadre-facebook" class="object">
-	        	<div id="facebook" class="object">F</div>
-        	</div>
-        </div>
-
-		<div id="main-google">
-    		<div id="cadre-google" class="object">
-        		<div id="google" class="object">G</div>
-        	</div>
-        </div>
-
-        <div id="main-linked">
-    		<div id="cadre-linked" class="object">
-        		<div id="linked" class="object">I</div>
-        	</div>
-        </div>
-
-    </div>
-</div>
-
-
-<div id="A7">
-
-	<div id="wrapper-A7">
-    <div id="line-A7"></div>
-	<div id="copyright"><strong>© Copyright 2016. All rights reserved.&nbsp Designed by <a href="http://designscrazed.org/">Allie</a></strong></div>
-    </div>
-
-</div>
--->
-<!-- SCRIPT -->
-
-	<!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script -->
-
-    <script type="text/javascript" src="JS/jquery.scrollTo.min.js"></script>
-    <script type="text/javascript" src="JS/jquery.localScroll.min.js"></script>
-    <script type="text/javascript" src="JS/jquery-animate-css-rotate-scale.js"></script>
-    <script type="text/javascript" src="JS/wow.min.js"></script>
+	<script type="text/javascript" src="JS/jquery.scrollTo.min.js"></script>
+	<script type="text/javascript" src="JS/jquery.localScroll.min.js"></script>
+	<script type="text/javascript" src="JS/jquery-animate-css-rotate-scale.js"></script>
+	<script type="text/javascript" src="JS/wow.min.js"></script>
 	<script type="text/javascript">new WOW().init();</script>
-      <script type="text/javascript" src="JS/fastclick.js"></script>
-    <script type='application/javascript'>
-window.addEventListener('load', function() {
-    new FastClick(document.body);
-}, false);
-</script>
+	<script type="text/javascript" src="JS/fastclick.js"></script>
+	<script type='application/javascript'>
+		window.addEventListener('load', function() {
+		    new FastClick(document.body);
+		}, false);
+	</script>
 
 
 
@@ -654,9 +561,8 @@ window.addEventListener('load', function() {
 	$(".blank").delay(1000).fadeOut(300);
 	$("#wrapper-head").delay(2000).animate({'opacity':'1'},500);
 	$("#wrapper-logo").delay(3200).animate({'opacity':'1'},300);
-	$("#wrapper-plus").delay(3200).animate({'opacity':'1'},300);
 });
-
+/*
 $(function() {
 	var bar = $('#wrapper-head');
 	var opacity = bar.css('opacity');
@@ -674,20 +580,7 @@ $(function() {
 		}
 	});
 });
-
-
-/*CLICK PLUS AND CROSS MENU
-
-var SS = document.getElementById('wrapper-plus');
-
-SS.addEventListener('click', function() {
-             $("#main-wrapper-menu").animate({'height':'100%'},500);
-             $(".recent-post").delay(500).fadeIn(500);
-             $(".category-post").delay(500).fadeIn(500);
-			 $("#wrapper-plus").fadeOut(250);
-});
 */
-
 /*BUTTON ARROW*/
 
 $(document).on('touchstart mouseover', '#fleche1', function(event){
@@ -716,342 +609,6 @@ $(document).on('touchend mouseout', '#fleche1', function(event){
         }
 });
 
-
-/*BUTTON LOGO*/
-
-$(document).on('touchstart mouseover', '#wrapper-logo', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#wrapper-logo").stop().animate({'scale':'1.1','opacity':'0.5'},200);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#wrapper-logo', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#wrapper-logo").stop().animate({'scale':'1','opacity':'1'},200);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON PLUS*/
-
-$(document).on('touchstart mouseover', '#wrapper-plus', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#wrapper-plus").stop().animate({'opacity':'0.75','scale':'1.1'},150);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#wrapper-plus', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#wrapper-plus").stop().animate({'opacity':'1','scale':'1'},150);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-
-/*BUTTON FACEBOOK*/
-
-$(document).on('touchstart mouseover', '#main-facebook', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#facebook").stop().css({'color':'#FFF'});
-			 $("#cadre-facebook").stop().css({'background-color':'#7A9DED'});
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-facebook', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#facebook").stop().css({'color':'#66676D'});
-			 $("#cadre-facebook").stop().css({'background-color':'transparent'});
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON DRIBBBLE*/
-
-$(document).on('touchstart mouseover', '#main-dribbble', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#dribbble").stop().css({'color':'#FFF'});
-			 $("#cadre-dribbble").stop().css({'background-color':'#E29ADE'});
-
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-dribbble', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#dribbble").stop().css({'color':'#66676D'});
-			 $("#cadre-dribbble").stop().css({'background-color':'transparent'});
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON BEHANCE*/
-
-$(document).on('touchstart mouseover', '#main-behance', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#behance").stop().css({'color':'#FFF'});
-			 $("#cadre-behance").stop().css({'background-color':'#606060'});
-
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-behance', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#behance").stop().css({'color':'#66676D'});
-			 $("#cadre-behance").stop().css({'background-color':'transparent'});
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON LINKED*/
-
-$(document).on('touchstart mouseover', '#main-linked', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#linked").stop().css({'color':'#FFF'});
-			 $("#cadre-linked").stop().css({'background-color':'#516182'});
-
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-linked', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#linked").stop().css({'color':'#66676D'});
-			 $("#cadre-linked").stop().css({'background-color':'transparent'});
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON GOOGLE*/
-
-$(document).on('touchstart mouseover', '#main-google', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#google").stop().css({'color':'#FFF'});
-			 $("#cadre-google").stop().css({'background-color':'#EA6E75'});
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-google', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#google").stop().css({'color':'#66676D'});
-			 $("#cadre-google").stop().css({'background-color':'transparent'});
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON PAGE2*/
-
-$(document).on('touchstart mouseover', '#main-page2', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#page2").stop().css({'background-color':'transparent','border-color':'#444549'});
-			 $("#text-page2").stop().css({'color':'#444549'},250);
-			 $("#main-page2").stop().animate({'scale':'1.1'},250);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-page2', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#page2").stop().css({'background-color':'#9C9C9C','border-color':'#9C9C9C'});
-		     $("#text-page2").stop().css({'color':'#FFF'},250);
-	         $("#main-page2").stop().animate({'scale':'1'},250);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON PAGE3*/
-
-$(document).on('touchstart mouseover', '#main-page3', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#page3").stop().css({'background-color':'transparent','border-color':'#444549'});
-			 $("#text-page3").stop().css({'color':'#444549'},250);
-			 $("#main-page3").stop().animate({'scale':'1.1'},250);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-page3', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#page3").stop().css({'background-color':'#9C9C9C','border-color':'#9C9C9C'});
-		     $("#text-page3").stop().css({'color':'#FFF'},250);
-	         $("#main-page3").stop().animate({'scale':'1'},250);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON PAGE4*/
-
-$(document).on('touchstart mouseover', '#main-page4', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#page4").stop().css({'background-color':'transparent','border-color':'#444549'});
-			 $("#text-page4").stop().css({'color':'#444549'},250);
-			 $("#main-page4").stop().animate({'scale':'1.1'},250);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#main-page4', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $("#page4").stop().css({'background-color':'#9C9C9C','border-color':'#9C9C9C'});
-		     $("#text-page4").stop().css({'color':'#FFF'},250);
-	         $("#main-page4").stop().animate({'scale':'1'},250);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-/*BUTTON HEADER LEARN MORE*/
-
-$(document).on('touchstart mouseover', '#wrapper-learnmore', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $(".bouton-learnmore").stop().css({'background-color':'#FFF'});
-			 $(".text-learnmore").stop().css({'color':'#333'},250);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
-
-$(document).on('touchend mouseout', '#wrapper-learnmore', function(event){
-        event.stopPropagation();
-        event.preventDefault();
-        if(event.handled !== true) {
-
-			 $(".bouton-learnmore").stop().css({'background-color':'transparent'});
-		     $(".text-learnmore").stop().css({'color':'#FFF'},250);
-
-            event.handled = true;
-        } else {
-            return false;
-        }
-});
 
 	</script>
 
