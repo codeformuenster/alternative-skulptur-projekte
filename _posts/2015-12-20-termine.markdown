@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Termine"
+date:   2016-04-20 20:01:35 +0200
+categories: kleingedrucktes
+image:
+link: http://www.skulptur-projekte-ms.de/#termine
+column:
+---
+<script>
+location.href="http://www.skulptur-projekte-ms.de/#termine"
+</script>
