@@ -11,14 +11,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="icon" type="image/png" href="IMG/small-logo-01.png" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" rel="stylesheet" />
-  <style>
+
+{% include headerstyle.html %}
+
+	<style>
     .headstyle {
       background-image: url(/IMG/trame.svg);
       background-repeat: repeat;
       background-color: #989b9a;
     }
     .is-black, .navstyle, nav {background-color:black;color:white;}
-    .nav.is-default {background-color:#000;}
+    .nav.is-default {background-color:#094273;}
     .nav a.nav-item:hover {color:white}
 
     footer.footer {background-color:black;color:white}
@@ -36,13 +39,13 @@
 </head>
 <body>
 
-<section class="is-black">
-  <div class="container navstyle">
+<section>
+  <div class="container navstyle header">
     <nav class="nav is-default">
       <div class="nav-left">
-        <a class="nav-item is-brand" href="/">
-          Schatten-Skulptura
-        </a>
+					<div id="schattenskulptura">
+          SchattenSkulptura
+				</div>
       </div>
 
       <div class="nav-center">
@@ -68,11 +71,11 @@
       <input type="checkbox" id="nav-toggle-state" />
 
       <div id="nav-menu" class="nav-right nav-menu">
-        <a class="nav-item " href="/">
+        <a href="/">
           Startseite
         </a>
         {% for post in site.categories.kleingedrucktes %}
-          <a class=" nav-item  " href="{{ post.link | default: post.url }}">
+          <a href="{{ post.link | default: post.url }}">
             <span>{{ post.title }}</span>
           </a>
         {% endfor %}

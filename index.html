@@ -89,7 +89,7 @@ layout: default
 	</script>
 
 
-
+{% include headerstyle.html %}
 
 
 <style>
@@ -139,8 +139,6 @@ layout: default
 }
 </style>
 
-<link href="https://fonts.googleapis.com/css?family=Orbitron|Pacifico|Press+Start+2P|VT323" rel="stylesheet">
-
 <style type="text/css">
   .modal a.close-modal[class*="icon-"] {
     top: -10px;
@@ -163,33 +161,6 @@ layout: default
     box-shadow:         1px 1px 5px rgba(0,0,0,0.5);
   }
 
-	.header{
-		width: 100%;
-		position:fixed;
-		top: 0px;
-		background-color:#094273;
-		color:white;
-		z-index:1000000;
-		text-align:center;
-		min-height:55px;
-	}
-	.header a {
-		margin:12px 20px;
-		display:block;
-		float:right;
-		color: #D6E116;
-	}
-	#schattenskulptura {
-		margin-top:8px;
-		margin-left:10px;
-		float:left;
-		font-size:35px;
-		/*font-family: 'Pacifico', cursive;
-		font-family: 'VT323', monospace;
-*/
-font-family: 'Press Start 2P', monospace;
-
-}
 </style>
 
 </head>
@@ -334,7 +305,7 @@ font-family: 'Press Start 2P', monospace;
 <br /> <br /><br />
 <center>
 
-	<a class="myButton" href="http://goo.gl/forms/iEEYQbDPYD" target="_blank"><h1>Hier klicken zum Mitmachen!</h1></a>
+	<a class="myButton" href="/kleingedrucktes/2016/04/20/kontaktformular.html" target="_blank"><h1>Hier klicken zum Mitmachen!</h1></a>
 </center>
 
 
@@ -363,7 +334,7 @@ font-family: 'Press Start 2P', monospace;
 
 		L.marker([51.962155, 7.625497]).addTo(mymap)
 			.bindPopup('<center><h1>Hier könnte Ihr Skulptur- oder Kunstprojekt verzeichnet sein!</h1>'
-			+' <a class="myButton" href="http://goo.gl/forms/iEEYQbDPYD" target="_blank">Mitmachen</a></center>.').openPopup();
+			+' <a class="myButton" href="/kleingedrucktes/2016/04/20/kontaktformular.html" target="_blank">Mitmachen</a></center>.').openPopup();
 /*
 		L.circle([51.508, -0.11], 500, {
 			color: 'red',
