@@ -4,7 +4,6 @@ title:  "Kontaktformular"
 date:   2016-04-20 20:05:35 +0200
 categories: kleingedrucktes
 image:
-link: http://goo.gl/forms/iEEYQbDPYD
 column:
 ---
 Wird das untenstehende Formular nicht angezeigt, lässt es sich unter [diesem Link](http://goo.gl/forms/iEEYQbDPYD) als eigenes Fenster geöffnet.
