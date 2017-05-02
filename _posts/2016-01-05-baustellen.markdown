@@ -25,7 +25,8 @@ Sie ermöglichen die <i>Partizipation von Bürgern/innen an den politischen und 
 <p>
 <b>Wir möchten den Rahmen bieten für Bürger/innen, Organisationen und Gruppen der Stadt Münster, die sich gerne an der Skulptura beteiligen möchten, um die Stadt mit viel Engagement bestmöglich zu präsentieren</b>.
 </p>
-
+<p>Der Initiator der SchattenSkulptura ist Jochen Kubeja, Kopf des Wohnzimmer e.V. Münster.</p>
+<p>
 
 <h2>Die aktuellen Baustellen </h2>
 <p>Zurzeit arbeiten wir daran, die Plattform für die Schatten-Skulptura zu entwickeln, um die Teilhabe für alle zu ermöglichen. Dabei benötigen wir unbedingt Hilfe. Bei den vielen Themen ist bestimmt auch was für Dich dabei, wo Du Dich einbringen kannst.</p>
