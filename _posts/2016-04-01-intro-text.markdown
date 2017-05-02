@@ -7,7 +7,7 @@ image:  http://49.media.tumblr.com/e2f61d07599c15bf363d5344c7974c48/tumblr_o2pdr
 link:   beesandbombs.tumblr.com
 column: intro
 ---
-<h2>Freie, offene Ausstellung 2.0</h2>
+<h2>Freie und offene Ausstellung 2.0</h2>
 <p>
 <b>In Dir steckt Kunst und das wolltest Du schon immer mal zeigen? Dann mach mit bei der SchattenSkulptura.</b>
 <p>
@@ -16,7 +16,7 @@ Die SchattenSkulptura gibt Dir die Möglichkeit, an Kunst und am Event Teilzuhab
 Trage Deine Kunst, die Du ausstellen möchtest, hier in unseren Kalender ein. Egal, ob Skulptur, Performance, Flashmob, Digitale Kunst, Happenings, Ausstellungen, Vernetzungstreffen, Workshops… Die SchattenSkulptura ist ein offenes und freies Projekt für alle, organisiert von ehrenamtlichen Kulturschaffenden.<br>
 Es geht uns um's Machen, um Werkstolz, um Leute Kennenlernen, was auf die Beine stellen, Reden und austauschen...
 <br>
-
+<br>
 <h2>Wie soll das funktionieren?</h2>
 <ul>
 <li><b>Die Schatten-Skulptura ist eine Ergänzung zur den offiziellen Skulpur-Projekten mitsamt Eventkalender und Übersichtskarte.</b></li>
@@ -30,7 +30,6 @@ Es geht uns um's Machen, um Werkstolz, um Leute Kennenlernen, was auf die Beine 
 <div style="float:right">
 
 </div>
-<br />
 
 <!-- Ein Beispiel: Der Wohnzimmer e.V. meldet über die Plattform eine Skulptur-Ausstellung in einem privaten Garten in Münster an, die an allen Sonntagen im August von 11 bis 20 Uhr zugänglich ist. Am dritten Sonntag findet zusätzlich eine Kulturveranstaltung mit Live-Performances statt. Der genaue Ort wird in einer Karte angezeigt und die Termine im Kalender (mit ausführlichen Infos) veröffentlicht.</p>
 
@@ -61,7 +60,7 @@ Wir freuen uns außerdem über jede Anregung und Hilfe:
 </li>
 <li>Diese Homepage steht als freier Quellcode auf GitHub zur Verfügung. Partizipiere an unserem Projekt auf GitHub:
 <a target="_blank" href="https://github.com/codeformuenster">https://github.com/codeformuenster</a></li>
-<li>Die interne Projekt-Kommunikation läuft über den Slack, ein webbasierter Instant-Messaging-Dienst zur Kommunikation innerhalb von Arbeitsgruppen: <a href="https://schattenskulptura.slack.com" taget="_blank" >https://schattenskulptura.slack.com"</a>
+<li>Die interne Projekt-Kommunikation läuft über "Slack", ein webbasierter Instant-Messaging-Dienst zur Kommunikation innerhalb von Arbeitsgruppen: <a href="https://schattenskulptura.slack.com" taget="_blank" >https://schattenskulptura.slack.com"</a>. Lass Dich von uns anmelden per Mail an kontakt  [at]  wohnzimmer-ev.de.
 </li>
 </ul>
 
