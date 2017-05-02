@@ -48,7 +48,7 @@ Man könnte außerdem zusätzlich zur Internet-Plattform eine Print-Publikation 
 <h2>Wie kann man mitmachen, die Idee der Schatten-Skulptura umzusetzen?</h2>
 <b>Wir treffen uns immer Dienstags um 19 Uhr im Cafe Dreiklang an der Wolbecker Straße
 <br />um die momentanen Baustellen im Projekt zu bearbeiten.
-<br />Darüber hinaus erreichst du den Wohnzimmer e.V. per Mail: <a href="kontakt@wohnzimmer-ev.de" /a>
+<br />Darüber hinaus erreichst du den Wohnzimmer e.V. per Mail: kontakt  [at]  wohnzimmer-ev.de
 <br />Alle Interessierten sind herzlich eingeladen!
 
 <br /><br />
