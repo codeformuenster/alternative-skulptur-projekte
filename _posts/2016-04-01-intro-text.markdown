@@ -9,29 +9,26 @@ column: intro
 ---
 <h2>Die Mitmach-Ausstellung</h2>
 <p>
-In Dir steckt Kunst und das wolltest Du schon immer mal zeigen? Dann mach mit bei der SchattenSkulptura. 
+<b>In Dir steckt Kunst und das wolltest Du schon immer mal zeigen? Dann mach mit bei der SchattenSkulptura.</b>
 <p>
 Viele Leute können es kaum erwarten, ein "WIR sind Skulptur Projekte" an den Tag zu legen und den BesucherInnen aus der Ferne einen warmen Empfang zu bereiten. <br>
 Die SchattenSkulptura gibt Dir die Möglichkeit, an Kunst und am Event Teilzuhaben. 
-Trage Deine Kunst, die Du ausstellen möchtest, hier in unseren Kalender ein. Egal, ob Skulptur, Performance, Flashmob, Digitale Kunst, Happenings, Ausstellungen… Die SchattenSkulptura ist ein offenes und freies Projekt für alle, organisiert von ehrenamtlichen Kulturschaffenden.<br>
-Es geht um's Machen, um Werkstolz, um Leute Kennenlernen, was auf die Beine stellen, Reden und austauschen...
+Trage Deine Kunst, die Du ausstellen möchtest, hier in unseren Kalender ein. Egal, ob Skulptur, Performance, Flashmob, Digitale Kunst, Happenings, Ausstellungen, Vernetzungstreffen, Workshops… Die SchattenSkulptura ist ein offenes und freies Projekt für alle, organisiert von ehrenamtlichen Kulturschaffenden.<br>
+Es geht uns um's Machen, um Werkstolz, um Leute Kennenlernen, was auf die Beine stellen, Reden und austauschen...
 
 
 <h2>Wie soll das funktionieren?</h2>
-<p>
-Die Eckpunkte unserer Idee:
-</p>
 <ul>
 <li><b>Die Schatten-Skulptura ist eine Ergänzung zur den offiziellen Skulpur-Projekten mitsamt Eventkalender und Übersichtskarte.</b></li>
-<li>Wir sind offen für alle! Jede Gruppe, jede Person und Organisation kann im Rahmen des Skulpura-Schattens eigene Skulpturen ausstellen, Skulptur-Ausstellungen organisieren, dazu Events durchführen, und, und, und.</li>
-<li>Wir erarbeiten gerade einen Rahmen (in Abstimmung mit den offiziellen SkulpturProjekten) für die Schatten-Skulpura, aber: Es gibt kein Gremium, das Angebote ablehnt. Im Gegenzug ist jeder „Veranstalter“ für seine Angebote selbst verantwortlich.</li>
-<li>Neue Medien liegen uns am Herzen. Wir möchten neben "analogen" Skulpturen zusätzlich eine digitale Skulpturausstellung schaffen mit Kunst im Internet.</li>
-<li>Bürgerinnen und Bürger können selbständig oder, falls wir genügend Ressourcen finden um das zu organisieren, bei technisch begleiteten Hackathons digitale Skulpturen erstellen und auf die zentrale Internetplattform laden.</li>
+<li>Wir sind offen für alle! Jede Gruppe, jede Person und Organisation kann im Rahmen der SchattenSkulptura eigene Kunst ausstellen, Ausstellungen organisieren, dazu Events durchführen, und, und, und.</li>
+<li>Im Rahmen der SchattenSkulptura gibt es kein Gremium, das Kunst-Angebote ablehnt. Im Gegenzug ist jeder „Veranstalter“ für seine Angebote selbst verantwortlich, die sie/er hier einträgt.</li>
+<li>Neue Medien liegen uns am Herzen. Wir möchten neben "analogen" Skulpturen zusätzlich eine digitale Skulpturausstellung schaffen mit Kunst im Internet auf dieser Plattform.</li>
+<li>Bürgerinnen und Bürger können selbständig oder, falls wir genügend Ressourcen finden um das zu organisieren, bei technisch begleiteten Hackathons digitale Skulpturen erstellen und auf diese zentrale Internetplattform laden.</li>
 </ul>
 
-<p>Den Organisationsrahmen zur Schatten-Skulptura bildet eine Internet-Plattform. Hier wird das Projekt erklärt, die Teilnahme erörtert und die Regeln erklärt. Teilnehmer/innen können sich über diese Plattform mit ihrer Skulptur anmelden. Erfasst werden Daten zu den Verantwortlichen, zum Standort, zum Zeitraum und zur Art bzw. Kategorie der Skulptur. Alle gesammelten Beiträge werden über diese Plattform veröffentlicht und sind nach Kategorie, Ort, Datum und ggf. weiteren Kriterien filterbar.
+<p>AusstellerInnen, Kunst-Anbieter und TeilnehmerInnen können sich über diese Plattform mit ihrer Skulptur anmelden. Erfasst werden Daten zu den Verantwortlichen, zum Standort, zum Zeitraum und zur Art bzw. Kategorie der Skulptur. Alle gesammelten Beiträge werden über diese Plattform veröffentlicht und sind nach Kategorie, Ort, Datum und ggf. weiteren Kriterien filterbar.
 <div style="float:right">
--- Initiator: Jochen Kubeja, Wohnzimmer e.V.
+
 </div>
 <br />
 
