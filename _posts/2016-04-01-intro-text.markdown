@@ -7,27 +7,15 @@ image:  http://49.media.tumblr.com/e2f61d07599c15bf363d5344c7974c48/tumblr_o2pdr
 link:   beesandbombs.tumblr.com
 column: intro
 ---
-
-
-<h2>Unsere Vision</h2>
+<h2>Die Mitmach-Ausstellung</h2>
 <p>
-Vom 10.06.2017 bis zum 01.10.2017 finden die Skulptur Projekte in Münster statt.
-</p>
-<b>
-Zu der renommierten, kuratierten Ausstellung mit Werken internationaler Künstler möchten wir eine eigene, selbständige und ergänzende Mitmach-Skulptur-Ausstellung organisieren, mit dem Arbeitstitel "Schatten-Skulptura" Die Schatten-Skulptura ist NICHT Teil der Skulptur-Projekte.</b>
-
-
-<h2>Warum?</h2>
+In Dir steckt Kunst und das wolltest Du schon immer mal zeigen? Dann mach mit bei der SchattenSkulptura. 
 <p>
-<b>Bei allen großen, gesellschaftlichen Events und politischen Konferenzen haben sich zu den eigentlichen Veranstaltungen parallel stattfindende und begleitende Programme etabliert.</b> Organisatoren sind häufig Nicht-Regierungs-Organisationen (NGOs), Kunst- und Kulturorganisationen, freie Künstler und viele mehr. Beispiele sind die großen UN Konferenzen zu Klima und Entwicklung, Gx Gipfel, Kinofestivals, etc. Diese frei zugänglichen Programme im „Schatten“ der geschlossenen Gipfel sind häufig in Anzahl an Veranstaltungen und an teilnehmenden Menschen umfangreicher als die „eigentliche Hauptveranstaltung“.
-</p>
+Viele Leute können es kaum erwarten, ein "WIR sind Skulptur Projekte" an den Tag zu legen und den BesucherInnen aus der Ferne einen warmen Empfang zu bereiten. <br>
+Die SchattenSkulptura gibt Dir die Möglichkeit, an Kunst und am Event Teilzuhaben. 
+Trage Deine Kunst, die Du ausstellen möchtest, hier in unseren Kalender ein. Egal, ob Skulptur, Performance, Flashmob, Digitale Kunst, Happenings, Ausstellungen… Die SchattenSkulptura ist ein offenes und freies Projekt für alle, organisiert von ehrenamtlichen Kulturschaffenden.<br>
+Es geht um's Machen, um Werkstolz, um Leute Kennenlernen, was auf die Beine stellen, Reden und austauschen...
 
-<p>
-Sie ermöglichen die <i>Partizipation von Bürgern/innen an den politischen und künstlerischen Themen</i> und stellen eine wichtige gesellschaftliche Funktion für <i>freie Meinungsäußerung, Begegnung und Austausch, Bildung und Teilhabe dar</i>. Bei den Skulptur Projekten Münster fehlt dieser Schatten bisher. Diese Lücke soll 2017 endlich geschlossen werden:
-</p>
-<p>
-<b>Wir möchten den Rahmen bieten für Bürger/innen, Organisationen und Gruppen der Stadt Münster, die sich gerne an der Skulptura beteiligen möchten, um die Stadt mit viel Engagement bestmöglich zu präsentieren</b>.
-</p>
 
 <h2>Wie soll das funktionieren?</h2>
 <p>
