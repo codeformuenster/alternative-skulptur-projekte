@@ -55,7 +55,7 @@ Man könnte außerdem zusätzlich zur Internet-Plattform eine Print-Publikation 
 Wir freuen uns außerdem über jede Anregung und Hilfe:
 <ul>
 <li><a target="_blank" href="/kleingedrucktes/2016/04/20/kontaktformular.html">Nutze unser <b>Kontaktformular</b></a></li>
-<li>Melde Dich auf unserer Facebook-Seite: <a href="https://www.facebook.com/codeformuenster/" target="_blank" >https://www.facebook.com/codeformuenster</a>
+<li>Melde Dich auf unserer Facebook-Seite: <a href="https://www.facebook.com/SchattenSkulptura-1285560384814732/?fref=ts" target="_blank" >https://www.facebook.com/SchattenSkulptura</a>
 </li>
 <li>oder kontaktiere uns auf Twitter: <a target="_blank" href="https://twitter.com/codeformuenster">https://twitter.com/codeformuenster</a>
 </li>
