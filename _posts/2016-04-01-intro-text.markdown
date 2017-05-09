@@ -13,7 +13,7 @@ column: intro
 <p>
 Viele Leute können es kaum erwarten, ein "WIR sind Skulptur Projekte" an den Tag zu legen und den BesucherInnen aus der Ferne einen warmen Empfang zu bereiten. <br>
 Die SchattenSkulptura gibt Dir die Möglichkeit, an Kunst und am Event Teilzuhaben. 
-Trage Deine Kunst, die Du ausstellen möchtest, hier in unseren Kalender ein. Egal, ob Skulptur, Performance, Flashmob, Digitale Kunst, Happenings, Ausstellungen, Vernetzungstreffen, Workshops… Die SchattenSkulptura ist ein offenes und freies Projekt für alle, organisiert von ehrenamtlichen Kulturschaffenden.<br>
+Trage Deine Kunst, die Du ausstellen möchtest, hier in unseren Kalender ein. Wir sind offen für jede bildende oder darstellende Kunst. Egal, ob Skulptur, Gemälde, Performance, Flashmob, Digitale Kunst, Happenings, Ausstellungen, Vernetzungstreffen, Workshops… Wir wollen uns nicht festlegen. Die SchattenSkulptura ist ein offenes und freies Projekt für alle, organisiert von ehrenamtlichen Kulturschaffenden.<br>
 Es geht uns um's Machen, um Werkstolz, um Leute Kennenlernen, was auf die Beine stellen, Reden und austauschen...
 <br>
 <br>
