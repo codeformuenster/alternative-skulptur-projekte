@@ -7,45 +7,29 @@ image:  http://49.media.tumblr.com/e2f61d07599c15bf363d5344c7974c48/tumblr_o2pdr
 link:   beesandbombs.tumblr.com
 column: intro
 ---
-
-
-<h2>Unsere Vision</h2>
+<h2>Freie und offene Ausstellung 2.0</h2>
 <p>
-Vom 10.06.2017 bis zum 01.10.2017 finden die Skulptur Projekte in Münster statt.
-</p>
-<b>
-Zu der renommierten, kuratierten Ausstellung mit Werken internationaler Künstler möchten wir eine eigene, selbständige und ergänzende Mitmach-Skulptur-Ausstellung organisieren, mit dem Arbeitstitel "Schatten-Skulptura" Die Schatten-Skulptura ist NICHT Teil der Skulptur-Projekte.</b>
-
-
-<h2>Warum?</h2>
+<b>In Dir steckt Kunst und das wolltest Du schon immer mal zeigen? Dann mach mit bei der SchattenSkulptura.</b>
 <p>
-<b>Bei allen großen, gesellschaftlichen Events und politischen Konferenzen haben sich zu den eigentlichen Veranstaltungen parallel stattfindende und begleitende Programme etabliert.</b> Organisatoren sind häufig Nicht-Regierungs-Organisationen (NGOs), Kunst- und Kulturorganisationen, freie Künstler und viele mehr. Beispiele sind die großen UN Konferenzen zu Klima und Entwicklung, Gx Gipfel, Kinofestivals, etc. Diese frei zugänglichen Programme im „Schatten“ der geschlossenen Gipfel sind häufig in Anzahl an Veranstaltungen und an teilnehmenden Menschen umfangreicher als die „eigentliche Hauptveranstaltung“.
-</p>
-
-<p>
-Sie ermöglichen die <i>Partizipation von Bürgern/innen an den politischen und künstlerischen Themen</i> und stellen eine wichtige gesellschaftliche Funktion für <i>freie Meinungsäußerung, Begegnung und Austausch, Bildung und Teilhabe dar</i>. Bei den Skulptur Projekten Münster fehlt dieser Schatten bisher. Diese Lücke soll 2017 endlich geschlossen werden:
-</p>
-<p>
-<b>Wir möchten den Rahmen bieten für Bürger/innen, Organisationen und Gruppen der Stadt Münster, die sich gerne an der Skulptura beteiligen möchten, um die Stadt mit viel Engagement bestmöglich zu präsentieren</b>.
-</p>
-
+Viele Leute können es kaum erwarten, ein "WIR sind Skulptur Projekte" an den Tag zu legen und den BesucherInnen aus der Ferne einen warmen Empfang zu bereiten. <br>
+Die SchattenSkulptura gibt Dir die Möglichkeit, an Kunst und am Event Teilzuhaben. 
+Trage Deine Kunst, die Du ausstellen möchtest, hier in unseren Kalender ein. Wir sind offen für jede bildende oder darstellende Kunst. Egal, ob Skulptur, Gemälde, Performance, Flashmob, Digitale Kunst, Happenings, Ausstellungen, Vernetzungstreffen, Workshops… Wir wollen uns nicht festlegen. Die SchattenSkulptura ist ein offenes und freies Projekt für alle, organisiert von ehrenamtlichen Kulturschaffenden.<br>
+Es geht uns um's Machen, um Werkstolz, um Leute Kennenlernen, was auf die Beine stellen, Reden und austauschen...
+<br>
+<br>
 <h2>Wie soll das funktionieren?</h2>
-<p>
-Die Eckpunkte unserer Idee:
-</p>
 <ul>
 <li><b>Die Schatten-Skulptura ist eine Ergänzung zur den offiziellen Skulpur-Projekten mitsamt Eventkalender und Übersichtskarte.</b></li>
-<li>Wir sind offen für alle! Jede Gruppe, jede Person und Organisation kann im Rahmen des Skulpura-Schattens eigene Skulpturen ausstellen, Skulptur-Ausstellungen organisieren, dazu Events durchführen, und, und, und.</li>
-<li>Wir erarbeiten gerade einen Rahmen (in Abstimmung mit den offiziellen SkulpturProjekten) für die Schatten-Skulpura, aber: Es gibt kein Gremium, das Angebote ablehnt. Im Gegenzug ist jeder „Veranstalter“ für seine Angebote selbst verantwortlich.</li>
-<li>Neue Medien liegen uns am Herzen. Wir möchten neben "analogen" Skulpturen zusätzlich eine digitale Skulpturausstellung schaffen mit Kunst im Internet.</li>
-<li>Bürgerinnen und Bürger können selbständig oder, falls wir genügend Ressourcen finden um das zu organisieren, bei technisch begleiteten Hackathons digitale Skulpturen erstellen und auf die zentrale Internetplattform laden.</li>
+<li>Wir sind offen für alle! Jede Gruppe, jede Person und Organisation kann im Rahmen der SchattenSkulptura eigene Kunst ausstellen, Ausstellungen organisieren, dazu Events durchführen, und, und, und.</li>
+<li>Im Rahmen der SchattenSkulptura gibt es kein Gremium, das Kunst-Angebote ablehnt. Im Gegenzug ist jeder „Veranstalter“ für seine Angebote selbst verantwortlich, die sie/er hier einträgt.</li>
+<li>Neue Medien liegen uns am Herzen. Wir möchten neben "analogen" Skulpturen zusätzlich eine digitale Skulpturausstellung schaffen mit Kunst im Internet auf dieser Plattform.</li>
+<li>Bürgerinnen und Bürger können selbständig oder, falls wir genügend Ressourcen finden um das zu organisieren, bei technisch begleiteten Hackathons digitale Skulpturen erstellen und auf diese zentrale Internetplattform laden.</li>
 </ul>
 
-<p>Den Organisationsrahmen zur Schatten-Skulptura bildet eine Internet-Plattform. Hier wird das Projekt erklärt, die Teilnahme erörtert und die Regeln erklärt. Teilnehmer/innen können sich über diese Plattform mit ihrer Skulptur anmelden. Erfasst werden Daten zu den Verantwortlichen, zum Standort, zum Zeitraum und zur Art bzw. Kategorie der Skulptur. Alle gesammelten Beiträge werden über diese Plattform veröffentlicht und sind nach Kategorie, Ort, Datum und ggf. weiteren Kriterien filterbar.
+<p>AusstellerInnen, Kunst-Anbieter und TeilnehmerInnen können sich über diese Plattform mit ihrer Skulptur anmelden. Erfasst werden Daten zu den Verantwortlichen, zum Standort, zum Zeitraum und zur Art bzw. Kategorie der Skulptur. Alle gesammelten Beiträge werden über diese Plattform veröffentlicht und sind nach Kategorie, Ort, Datum und ggf. weiteren Kriterien filterbar.
 <div style="float:right">
--- Initiator: Jochen Kubeja, Wohnzimmer e.V.
+
 </div>
-<br />
 
 <!-- Ein Beispiel: Der Wohnzimmer e.V. meldet über die Plattform eine Skulptur-Ausstellung in einem privaten Garten in Münster an, die an allen Sonntagen im August von 11 bis 20 Uhr zugänglich ist. Am dritten Sonntag findet zusätzlich eine Kulturveranstaltung mit Live-Performances statt. Der genaue Ort wird in einer Karte angezeigt und die Termine im Kalender (mit ausführlichen Infos) veröffentlicht.</p>
 
@@ -59,27 +43,29 @@ Man könnte außerdem zusätzlich zur Internet-Plattform eine Print-Publikation 
 <!-- <a href="http://codeformuenster.org/opendataday/">
 <img style="float:left;margin-right:15px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABmUExURUdwTAAAAAAAAPA3EAAAAAAAAAAAAAAAAAAAAAAAAP///83NzfLw79LS0mFhYeEzDkBAQNPT02AVCbu7u3p6evmqm7coCP7n4/JNKvvEuYUZBKamphwcHBkBAPaHcPRoTNWViaVeUE35a2gAAAAKdFJOUwAf//+ZQtvwyHJVR5WiAAADi0lEQVRYw+2Y626rMAyARwokKRTCvfS+93/JQxIHcnHoqvNr0ixNWhvz1TeMzdfXn/xe4YxSxrOUUUIoS7O4ZsaNjr7GOUwY8YRFUFmomVjHwekiaRJikhRRzC2/CCZ5QEpyVJE7Bt2q6kaI6Luiu/ZCKdAs4SnLZURylvIko+prqVN0UkdfQ9gKkgpV3/dVV5yKQv5dbyQit2uhpCk6dYn8zgeBihaBc4Stc/VByjWXU1Q4qCpckusaD1U0595exvqwSD1e2juJqG3BzuTHLlBox4MjYxuQOvnNVnKp77zkXOpDIPXFJ0nN1IlR7562CEZJ65BOfZB+y7Oe3I1Tz8c8TcfjNM2Pp3Hwbv+o9I06IDsVYM55WBibTMNZ+9faCQ7qqNs434ABQHk6lfAvoL43UueA5C1kjnrgPMzFx2YJxWrVA0g96poV7Iq0SnUxp2ya0gbpzwOEvDLx9AtSAOeu4jMvF55WgHYNPs8qTncgCSf9qiCvOu+j4awgI+azIo26Cq5uQSrfhK4f8MsNsvt52OpJOJ6BSZWsUunY4/hGZMRrcwVxmrJpoReZ9/IdqJRVcDEtGW2itXLMdypwcACTkIacqDYqI3R2K8cXfXbWUVpqKGjsKkyjjrQBVVUZAQ06cV6AtEmyj8l0TFspViIk6bNJaspOFz6zOHj2tC/CSFqe4BsPQCnkzMl9nDRA3tIAxCBE8/FHpBmCxAJQDsmfjj8iTVAAeQCiK8itorJq6/McVFIJIIqCZCqCm7WsVW35BSB1naYWgpr/B6GuiQ9diwVb3MRnwY6kP8LZST9ekDGOakl4QaK3SJSzc4tk9k2rw41y9Nl60yIzK/XbCG6P20YoMvimfmPD/XIbW4pN0FarVT1HoPFRZ2urRadx+nnzz/Etgnz6OEJytvZ/5wHZuA/IxntAIp3fMunnj+yYQRAlbIhosCEiFqH1efvaxpqTO9aoUtRjzYtEcm9tAMVrZ9Aq9aD1UtMsjS5/MG6/3o1+Lxj5+K5Bi9K7YbSDAZvuGyTHtnU8HuZpMaec5sEaj6ti1yRmDFLjRGRgr9vt57C2Zg/JsBdFVwjr9+geqFtXKnypIWTTo1HXRNc5G59csxbLarlmOfuf1mPxYMO6y2lsFaWcY2txYJJe5eVijqJybuvF7hHzGgHGwsxnUfOCgiGvDsIXGzm3X19Y67rVDXkevMz4k98o/wBhYG9yu+/aywAAAABJRU5ErkJggg==" />
 -->
-</p>
-<h2>Wie kann man mitmachen, die Idee der Schatten-Skulptura umzusetzen?</h2>
+<p>
+<p>
+<h2>Wie kann man mitmachen, das Projekt SchattenSkulptura umzusetzen?</h2>
 <b>Wir treffen uns immer Dienstags um 19 Uhr im Cafe Dreiklang an der Wolbecker Straße
 <br />um die momentanen Baustellen im Projekt zu bearbeiten.
-<br />Darüber hinaus erreichst du den Wohnzimmer e.V. per Mail: <kontakt@wohnzimmer-ev.de>
-<br />Alle Interessierten sind herzlich eingeladen!</b>
-</a>
+<br />Darüber hinaus erreichst du den Wohnzimmer e.V. per Mail: kontakt  [at]  wohnzimmer-ev.de
+<br />Alle Interessierten sind herzlich eingeladen!
+
 <br /><br />
 Wir freuen uns außerdem über jede Anregung und Hilfe:
 <ul>
 <li><a target="_blank" href="/kleingedrucktes/2016/04/20/kontaktformular.html">Nutze unser <b>Kontaktformular</b></a></li>
-<li>Melde Dich auf unserer Facebook-Seite: <a href="https://www.facebook.com/codeformuenster/" target="_blank" >https://www.facebook.com/codeformuenster</a>
+<li>Melde Dich auf unserer Facebook-Seite: <a href="https://www.facebook.com/SchattenSkulptura-1285560384814732/?fref=ts" target="_blank" >https://www.facebook.com/SchattenSkulptura</a>
 </li>
 <li>oder kontaktiere uns auf Twitter: <a target="_blank" href="https://twitter.com/codeformuenster">https://twitter.com/codeformuenster</a>
 </li>
 <li>Diese Homepage steht als freier Quellcode auf GitHub zur Verfügung. Partizipiere an unserem Projekt auf GitHub:
 <a target="_blank" href="https://github.com/codeformuenster">https://github.com/codeformuenster</a></li>
-<li>Telefon / Email..?</li>
+<li>Die interne Projekt-Kommunikation läuft über "Slack", ein webbasierter Instant-Messaging-Dienst zur Kommunikation innerhalb von Arbeitsgruppen: <a href="https://schattenskulptura.slack.com" taget="_blank" >https://schattenskulptura.slack.com"</a>. Lass Dich von uns anmelden per Mail an kontakt  [at]  wohnzimmer-ev.de.
+</li>
 </ul>
-<br>
-
+<p>
+<p>
 <h2>Das Kleingedruckte</h2>
 <p><b>Begriffsklärung: </b></p>
 <p><b>Teilnehmende, Mitmacher</b> und <b>Aussteller</b> sind die, die im Projekt Schatten-Skulptura selbständig ausstellen,

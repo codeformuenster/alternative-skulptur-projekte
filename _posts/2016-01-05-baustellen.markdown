@@ -1,11 +1,33 @@
 ---
 layout: post
-title:  "Baustellen"
+title:  "Hintergrund"
 date:   2016-04-20 20:05:35 +0200
 categories: kleingedrucktes
 image:
 column:
 ---
+<h2>Unsere Vision</h2>
+<p>
+Vom 10.06.2017 bis zum 01.10.2017 finden die Skulptur Projekte in Münster statt.
+</p>
+<b>
+Zu der renommierten, kuratierten Ausstellung mit Werken internationaler Künstler möchten wir eine eigene, selbständige und ergänzende Mitmach-Skulptur-Ausstellung organisieren, mit dem Arbeitstitel "Schatten-Skulptura" Die Schatten-Skulptura ist NICHT Teil der Skulptur-Projekte.</b>
+
+
+<h2>Warum?</h2>
+<p>
+<b>Bei allen großen, gesellschaftlichen Events und politischen Konferenzen haben sich zu den eigentlichen Veranstaltungen parallel stattfindende und begleitende Programme etabliert.</b> Organisatoren sind häufig Nicht-Regierungs-Organisationen (NGOs), Kunst- und Kulturorganisationen, freie Künstler und viele mehr. Beispiele sind die großen UN Konferenzen zu Klima und Entwicklung, Gx Gipfel, Kinofestivals, etc. Diese frei zugänglichen Programme im „Schatten“ der geschlossenen Gipfel sind häufig in Anzahl an Veranstaltungen und an teilnehmenden Menschen umfangreicher als die „eigentliche Hauptveranstaltung“.
+</p>
+
+<p>
+Sie ermöglichen die <i>Partizipation von Bürgern/innen an den politischen und künstlerischen Themen</i> und stellen eine wichtige gesellschaftliche Funktion für <i>freie Meinungsäußerung, Begegnung und Austausch, Bildung und Teilhabe dar</i>. Bei den Skulptur Projekten Münster fehlt dieser Schatten bisher. Diese Lücke soll 2017 endlich geschlossen werden:
+</p>
+<p>
+<b>Wir möchten den Rahmen bieten für Bürger/innen, Organisationen und Gruppen der Stadt Münster, die sich gerne an der Skulptura beteiligen möchten, um die Stadt mit viel Engagement bestmöglich zu präsentieren</b>.
+</p>
+<p>Der Initiator der SchattenSkulptura ist Jochen Kubeja, Kopf des Wohnzimmer e.V. Münster.</p>
+<p>
+
 <h2>Die aktuellen Baustellen </h2>
 <p>Zurzeit arbeiten wir daran, die Plattform für die Schatten-Skulptura zu entwickeln, um die Teilhabe für alle zu ermöglichen. Dabei benötigen wir unbedingt Hilfe. Bei den vielen Themen ist bestimmt auch was für Dich dabei, wo Du Dich einbringen kannst.</p>
 <p>Deinen Input kannst Du persönlich bei unseren Diensttags-Treffen im Cafe Dreiklang einbringen. Du kannst per Mail Deine Inhalte einbringen und Du kannst direkt diese Seite bearbeiten. Der Code liegt offen! Viel Spaß und gutes Gelingen.</p>
