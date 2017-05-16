@@ -21,14 +21,19 @@ layout: default
 
 	<script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-  	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
-  	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+  	<link rel="stylesheet" href="//unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+  	<script src="//unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+		<script src="JS/Leaflet.Sleep.js"></script>
 
+<link rel='stylesheet' href='CSS/jquery-ui-1.12.1.custom/jquery-ui.min.css' />
+<link rel='stylesheet' href='CSS/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css' />
 
 	<!-- fullcalendar -->
-	<link rel='stylesheet' href='https://fullcalendar.io/js/fullcalendar-3.3.1/fullcalendar.min.css' />
+	<link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.css' />
 	<script src='//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js'></script>
-	<script src='https://fullcalendar.io/js/fullcalendar-3.3.1/fullcalendar.min.js'></script>
+	<script src='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js'></script>
+	<script src='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/locale/de.js'></script>
+
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.css" type="text/css" media="screen" />
@@ -38,21 +43,86 @@ layout: default
 	<script>
 
 	$(function() {
-		$.getJSON("https://event-api.codeformuenster.org/v0/events?lat=51.961&lon=7.614",function(result){
+	//	$.getJSON("https://event-api.codeformuenster.org/v0/events?lat=51.961&lon=7.614",function(result){
 
+
+			var mymap = L.map('mapid').setView([51.962155, 7.625497], 13);
+
+			L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+			    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+
+			}).addTo(mymap);
+
+			L.marker([51.962155, 7.625497]).addTo(mymap)
+				.bindPopup('<center><h1>Hier könnte Ihr Skulptur- oder Kunstprojekt verzeichnet sein!</h1>'
+				+' <a class="myButton" href="/kleingedrucktes/2016/04/20/kontaktformular.html" target="_blank">Mitmachen</a></center>.');
+
+
+			var result = [
+				["03.05.2017 12:06:30","Weyand, Georgios",
+					"Der Sonnenwagen",
+					"http://www.facebook.com/DerSonnenwagen/",
+					"Kinetische Gemeinschafts-Skulptur mit medialer Installation",
+					"","24h ohne mediale Installation an der Dammstr. 19 - an ausgewählten Tagen und Orten mit medialer Installation",
+					"Dammstr. 19 / verschiedene Orte in Münster",
+					"Sonstiges",
+					[51.951001, 7.632366]
+				],
+				["04.05.2017 19:49:13","Künnemann, Ursula",
+					"Skulpturen-Garten Ahlener Gruppe",
+					"",
+					"Gegenüber des Zwingers an der Promenade führt ein schmaler Weg (markiert) direkt in den einladenden Skulpturen-Garten. Die Ahlener KünstlerInnengruppe arbeitet seit über 10 Jahren an Skulpturen aus Sandstein und Speckstein. Eine Auswahl der Werke präsentieren sie in dem hausumläufigen Garten. Die Gruppe verbindet der Werkstoff, die Motivwahl erfolgt individuell durch die jeweilige KünstlerIn. Die Künstler sind anwesend und arbeiten zum Teil vor Ort.",
+					"2017-08-29","Sa., 29.08.2017, 12.00 bis 18.00 Uhr",
+					"Zeppelinstr. 6, 48147 Münster",
+					"Ausstellung",
+					[51.968199, 7.631402]
+				],
+				["12.05.2017 15:55:24","Luckmann, Helmut",
+					"Aus-Stellung, Aus-Schnitte",
+					"",
+					"Im Rahmen eines 'Offenen Aleliers' ist u.a. das Bild zu sehen, das im letzten Jahr bei einer Performance im Schlossgarten entstand. Die Tänzer Alice Cerrato und Antonio Rusciano begleiten eine Transformation dieses großen Bildes, bei der die Besucher einen bestimmten Aussnitt wählen können, der von mir vor Ort zu einem neuen Objekt gestaltet wird. Wir geben auch gerne Autogramme ins Booklet, das die gesamte Performance inkl. DVD dokumentiert. Die einzelnen Aktionen werden jeweils um 12, 14, und 16 Uhr starten. Sie sind herzlich eingeladen, sich an diesem Tag inspirieren und überraschen zu lassen. ",
+					"2017-06-11", "So., 11.06.2017, 11 bis 17 Uhr",
+					"Atelier Werse 27, Pleistermühlenweg, Biohof Borghoff",
+					"Ausstellung",//"Gemälde"
+					[51.960840, 7.697510]
+				],
+				["02.05.2017 19:39:16","Kubeja, Jochen",
+					"Critical Mass Münster",
+					"https://www.facebook.com/criticalmass.ms/",
+					"Werde Teil der Masse und zeig, dass Radfahrer im Verband im Straßenverkehr ein  s werden und zu einem riesigen Fahrzeug verschmelzen. <br />	&gt; 16 Radfahrer = Verband = auf der Straße fahren 	<br />			Keine Demo, Veranstaltung oder Rennen, sondern Performance, Flashmob und Haltung. Und auch einfach und entspannt mit anderen durch die Stadt radeln. Spät dran oder Start verpasst? Kein Problem! Mit den Apps Critical Maps und Glympse könnt ihr uns auch als Nachzügler noch finden und zur Masse dazustoßen.",
+					"2017-05-26", "Fr., 26.05.2017 - Fr., 30.06.2017 - Fr. 28.07.2017 - Fr. 25.08.2017 - Fr., 29.09.2017 - Start ist jeweils um 19.00 Uhr.",
+					"Treffpunkt Domplatz Münster",
+					"Kunst-Flashmob",
+					[51.962077, 7.625366]
+				]
+			];
 			var events = [];
 			$.each(result, function(i, termin){
 		//    console.log(i,termin);
+				var startdate= termin[5];
+				if (startdate) {
+					events.push({
+						title:termin[2],
+						start:startdate,
+						description:termin[4]
+							+ '<br /><br /><b>Ort:</b> ' + termin[7]
+							+ '<br /><b>Zeit:</b> ' + termin[6]
+							+ '<br /><b>Kategorie:</b> ' + termin[8]
+							+ '<br /><b>Eingetragen von:</b> ' + termin[1]
+					})
+				}
+				var latlong = termin[9]
+				if (latlong) {
+					L.marker(latlong).addTo(mymap)
+						.bindPopup('<center><b>' + termin[2]+ '</b><br />' + termin[6]
+						+'<br /><br />'+termin[4]+'</center>');
+				}
 
-				var start = termin.start_date.substr(0,10);
-				events.push({
-					title:termin.name,
-					start:start,
-					description:termin.description
-				})
 		  });
 
 			$('#fullcalendar').fullCalendar({
+				theme:true,
+        locale: 'de',
 				header: {
 					left: 'prev,next today',
 					center: 'title',
@@ -65,7 +135,7 @@ layout: default
 				eventClick: function(calEvent, jsEvent, view) {
 
 					var dateThing = new Date(calEvent.start);
-					var startDate = dateThing.getDay() + "." + dateThing.getMonth() + "." + dateThing.getFullYear()
+					var startDate = dateThing.getDate() + "." + (parseInt(dateThing.getMonth())+1) + "." + dateThing.getFullYear()
 					//	+ dateThing.getHours() + ":" + dateThing.getMinutes();
 
 					$('#ex1 .ehl').html(calEvent.title);
@@ -77,7 +147,7 @@ layout: default
 				 });
 
 		        // change the border color just for fun
-		        $(this).css('border-color', 'red');
+		//        $(this).css('border-color', 'red');
 		    }
 			});
 
@@ -85,7 +155,19 @@ layout: default
 
 		});
 
-	});
+//	});
+
+	function growDiv() {
+    var growDiv = document.getElementById('grow');
+    if (growDiv.clientHeight > 330) {
+      growDiv.style.height = "310px";
+    } else {
+      var wrapper = document.querySelector('.measuringWrapper');
+      growDiv.style.height = wrapper.clientHeight + "px";
+    }
+document.getElementById("more-button").value=document.getElementById("more-button").value=='Mehr darüber lesen..'?'Text wieder verbergen':'Mehr darüber lesen..';
+}
+
 	</script>
 
 
@@ -185,35 +267,6 @@ layout: default
 	</div>
 
 
-<!-- MENU TAB
-<div id="main-wrapper-menu">
-  <div id="wrapper-cross"></div>
-	<div id="wrapper-menu">
-
-    <div class="recent-post text-part-menutab">
-        <ul>
-        <li><div id="recent-post-title">Our recent post</div></li>
-    	<li><div id="recent-post-1"><a href="spore-post1.html">Post a youtube video</a></div></li>
-		<li><div id="recent-post-2"><a href="spore-post2.html">Post an animated image</a></div></li>
-		<li><div id="recent-post-3"><a href="spore-post5.html">Post featured image</a></div></li>
-		<li><div id="recent-post-4"><a href="spore-post3.html">Auto-resized image</a></div></li>
-        </ul>
-    </div>
-
-	<div class="category-post text-part-menutab">
-    	<div id="line-category-post"></div>
-        <ul>
-        <li><div id="category-post-title">Categories post</div></li>
-    	<li><div id="category-post-1"><a href="spore-cat-video.html">Video articles</a></div></li>
-		<li><div id="category-post-2"><a href="spore-cat-hotpost.html">Hot articles</a></div></li>
-		<li><div id="category-post-3"><a href="spore-cat-image.html">Images</a></div></li>
-        </ul>
-    </div>
-
-    </div>
-</div>
-
--->
 <!-- HEADER -->
 
 <div id="A1-main">
@@ -259,7 +312,7 @@ layout: default
 	    height: 11px;
 			font-family: 'open_sansregular';
 	}
-	h1, a {font-family: 'open_sansregular';}
+	h1, h2, a {font-family: 'open_sansregular';}
 
 	.headliner {
 		  margin: 150px 0 -50px 0;
@@ -282,7 +335,21 @@ layout: default
 		font-weight:bold;
 	}
 
+	#more-button{margin: 10px 0 10px 0;}
 
+	#grow input:checked{color:red;}
+
+	#more-button:hover{color:black;}
+
+	#grow {
+	    -moz-transition: height .5s;
+	    -ms-transition: height .5s;
+	    -o-transition: height .5s;
+	    -webkit-transition: height .5s;
+	    transition: height .5s;
+	    height: 310px;
+	    overflow: hidden;
+	  }
 </style>
 
 
@@ -293,20 +360,31 @@ layout: default
 	</div>
 </div>
 
-
-
 <div id="wrapper-A3" >
 
-	{% for post in site.categories.intro %}
+	<div id='grow'>
+	    <div class='measuringWrapper'>
+	        <div class="text">
 
-              <div id="A3-left-text-2" class="intro">{{ post.content }}</div>
-  {% endfor %}
+				{% for post in site.categories.intro %}
+			              <div id="A3-left-text-2" class="intro">{{ post.content }}</div>
+			  {% endfor %}
 
-<br /> <br /><br />
-<center>
+						<br />
+						<br /><br />
 
-	<a class="myButton" href="/kleingedrucktes/2016/04/20/kontaktformular.html" target="_blank"><h1>Hier klicken zum Mitmachen!</h1></a>
-</center>
+					</div>
+	    </div>
+	</div>
+
+	<input type="button" onclick="growDiv()" value="Mehr darüber lesen.." id="more-button">
+
+	<br /><br />
+	<br />
+
+	<center>
+		<a class="myButton" href="/kleingedrucktes/2016/04/20/kontaktformular.html"><h1>Hier klicken zum Mitmachen!</h1></a>
+	</center>
 
 
 </div>
@@ -326,15 +404,6 @@ layout: default
 	<div id="mapid" style="width: 100%; height: 400px;"></div>
 	<script>
 
-		var mymap = L.map('mapid').setView([51.962155, 7.625497], 13);
-
-		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-		    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-		}).addTo(mymap);
-
-		L.marker([51.962155, 7.625497]).addTo(mymap)
-			.bindPopup('<center><h1>Hier könnte Ihr Skulptur- oder Kunstprojekt verzeichnet sein!</h1>'
-			+' <a class="myButton" href="/kleingedrucktes/2016/04/20/kontaktformular.html" target="_blank">Mitmachen</a></center>.').openPopup();
 /*
 		L.circle([51.508, -0.11], 500, {
 			color: 'red',
@@ -349,7 +418,7 @@ layout: default
 		]).addTo(mymap).bindPopup("I am a polygon.");
 */
 
-		var popup = L.popup();
+//		var popup = L.popup();
 
 	</script>
 
@@ -360,7 +429,9 @@ layout: default
 
 <!-- div for fullcalendar -->
 <div id="wrapper-A3" class="object">
+
 	<a name="termine"></a>
+	<h2 class="">Termine</h2>
 	<div id="fullcalendar" style="width:100%;height:850px;background-color:#eee">
 		<div id="terminloader">Termine werden geladen..</div>
 	</div>
@@ -421,49 +492,6 @@ layout: default
 <div id="A5">
 
 	<div id="wrapper-A5">
-<!--
-        <div id="wrapper-part-left" class="text-part-A5">
-        	<div id="A5-left" class="wow flipInX" data-wow-offset="10">
-    			<div id="left-text-post"><strong>Our recent post</strong></div>
-            	<div id="left-line-post"></div>
-            	<div id="left-line2-post"></div>
-			<ul>
-                <li><div id="left-text-post-1"><strong><a href="spore-post1.html">Post a youtube video</a></strong></div></li>
-				<li><div id="left-text-post-2"><strong><a href="spore-post2.html">Post an animated image</a></strong></div></li>
-				<li><div id="left-text-post-3"><strong><a href="spore-post5.html">Post featured image</a></strong></div></li>
-				<li><div id="left-text-post-4"><strong><a href="spore-post3.html">Auto-resized image</a></strong></div></li>
-        	</ul>
-            </div>
-        </div>
-
-        <div id="wrapper-part-mid" class="text-part-A5">
-        	<div id="A5-middle" class="wow flipInX" data-wow-offset="10" data-wow-delay="0.2s">
-    			<div id="mid-text-post"><strong>Categories</strong></div>
-            	<div id="mid-line-post"></div>
-            	<div id="mid-line2-post"></div>
-			<ul>
-                <li><div id="mid-text-post-1"><strong><a href="spore-cat-video.html">Video</a></strong></div></li>
-				<li><div id="mid-text-post-2"><strong><a href="spore-cat-hotpost.html">Hot articles</a></strong></div></li>
-				<li><div id="mid-text-post-3"><strong><a href="spore-cat-image.html">Image</a></strong></div></li>
-        	</ul>
-            </div>
-        </div>
-
-        <div id="wrapper-part-right" class="text-part-A5">
-        	<div id="A5-right" class="wow flipInX" data-wow-offset="10" data-wow-delay="0.4s">
-    			<div id="right-text-post"><strong>Why will you chose my blog theme ?</strong></div>
-            	<div id="right-line-post"></div>
-            	<div id="right-line2-post"></div>
-			<ul>
-                <li><div id="right-text-post-1"><strong><a href="http://en.wikipedia.org/wiki/Responsive_web_design">RWD - Responsive Web design</a></strong></div></li>
-				<li><div id="right-text-post-2"><strong><a href="#">New javascript effect and animations</a></strong></div></li>
-				<li><div id="right-text-post-3"><strong><a href="#">Extensible bloc adapted</a></strong></div></li>
-				<li><div id="right-text-post-4"><strong><a href="#">No need to modify the code</a></strong></div></li>
-           </ul>
-           </div>
-        </div>
--->
-
 <style>
 center a {
 	display: inline-block;
@@ -542,26 +570,7 @@ center a {
 	$("#wrapper-head").delay(2000).animate({'opacity':'1'},500);
 	$("#wrapper-logo").delay(3200).animate({'opacity':'1'},300);
 });
-/*
-$(function() {
-	var bar = $('#wrapper-head');
-	var opacity = bar.css('opacity');
-	var top = bar.css('top');
 
-	$(window).scroll(function() {
-		if($(this).scrollTop() > 100) {
-			bar.stop().animate({ opacity :'0', top :'-10%'},250);
-		}
-	});
-
-	$(window).scroll(function() {
-		if($(this).scrollTop() < 100) {
-			bar.stop().animate({ opacity :'1', top :'0'},250);
-		}
-	});
-});
-*/
-/*BUTTON ARROW*/
 
 $(document).on('touchstart mouseover', '#fleche1', function(event){
         event.stopPropagation();
