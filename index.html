@@ -90,10 +90,28 @@ layout: default
 					"Critical Mass Münster",
 					"https://www.facebook.com/criticalmass.ms/",
 					"Werde Teil der Masse und zeig, dass Radfahrer im Verband im Straßenverkehr ein  s werden und zu einem riesigen Fahrzeug verschmelzen. <br />	&gt; 16 Radfahrer = Verband = auf der Straße fahren 	<br />			Keine Demo, Veranstaltung oder Rennen, sondern Performance, Flashmob und Haltung. Und auch einfach und entspannt mit anderen durch die Stadt radeln. Spät dran oder Start verpasst? Kein Problem! Mit den Apps Critical Maps und Glympse könnt ihr uns auch als Nachzügler noch finden und zur Masse dazustoßen.",
-					"2017-05-26", "Fr., 26.05.2017 - Fr., 30.06.2017 - Fr. 28.07.2017 - Fr. 25.08.2017 - Fr., 29.09.2017 - Start ist jeweils um 19.00 Uhr.",
+					["2017-05-26", "2017-06-30", "2017-07-28", "2017-08-25", "2017-09-29"], "Fr., 26.05.2017 - Fr., 30.06.2017 - Fr. 28.07.2017 - Fr. 25.08.2017 - Fr., 29.09.2017 - Start ist jeweils um 19.00 Uhr.",
 					"Treffpunkt Domplatz Münster",
 					"Kunst-Flashmob",
 					[51.962077, 7.625366]
+				],
+				["18.05.2017 18:42:49",	"Cardaun, Gilla",
+					"Fahrt ins Blaue",
+					"http://www.ambulantegalerie.de",
+					"Ein umgestaltetes Verkehrs-Schild, bemalt mit Acrylfarbe",
+					"", "Mo - Fr: 10 bis 18 Uhr, Sa: 10 - 14 Uhr",
+					"In der Fahrrad-Werkstatt Lila Leeze, Dortmunder Str. 11, 48155 Münster	Ausstellung",
+					"Gemälde",
+					[51.955298, 7.641913]
+				],
+				["18.05.2017 20:09:09", "SchattenSkulptura",
+					"Offizieller Auftakt SchattenSkulptura",
+					"http://www.wohnzimmer-ev.de",
+					"Zum Auftakt unserer SchattenSkulptura starten wir mit einem Kunst-Picknick an der Promenade. Bringt Picknick-Decken mit und alles, was dazu gehört. Also lecker Essen und Trinken, Kerzenfackeln, Instrumente, Mucke...  Und: Natürlich ein Stück Kunst. Oder auch zwei. Kommt vorbei und startet mit uns in den ultimativen Kunst-Sommer! (JedeR nimmt mit nach Haus, was er/sie mitbringt)",
+					"2017-06-16", "Freitag, 16.06.2017 ab 20 Uhr",
+					"Promenade, auf der Wiese direkt westlich vom Zwinger",
+					"Flashmob",//		Skulptur																								"
+					[51.967742, 7.630874]
 				]
 			];
 			var events = [];
@@ -101,15 +119,27 @@ layout: default
 		//    console.log(i,termin);
 				var startdate= termin[5];
 				if (startdate) {
-					events.push({
-						title:termin[2],
-						start:startdate,
-						description:termin[4]
-							+ '<br /><br /><b>Ort:</b> ' + termin[7]
-							+ '<br /><b>Zeit:</b> ' + termin[6]
-							+ '<br /><b>Kategorie:</b> ' + termin[8]
-							+ '<br /><b>Eingetragen von:</b> ' + termin[1]
-					})
+
+					function addEvent(termin, eventdate) {
+						events.push({
+							title:termin[2],
+							start:eventdate,
+							description:termin[4]
+								+ '<br /><br /><b>Ort:</b> ' + termin[7]
+								+ '<br /><b>Zeit:</b> ' + termin[6]
+								+ '<br /><b>Kategorie:</b> ' + termin[8]
+								+ '<br /><b>Eingetragen von:</b> ' + termin[1]
+						})
+					}
+
+					if (Array.isArray(startdate)) {
+						for (index = 0; index < startdate.length; ++index) {
+    						addEvent(termin, startdate[index]);
+						}
+					} else {
+						addEvent(termin, startdate);
+					}
+
 				}
 				var latlong = termin[9]
 				if (latlong) {
@@ -175,9 +205,25 @@ document.getElementById("more-button").value=document.getElementById("more-butto
 
 
 <style>
+
+@media (max-width: 800px) {
+  .header a {
+		margin: 5px;
+		font-size: 15px;
+	}
+	h1 {font-size: 1.5em;}
+}
+@media (max-width: 600px) {
+	#schattenskulptura {
+		font-size:20px;
+	}
+}
+
 #terminloader { display:block;margin-top:100px auto 0 auto;}
 
+.fc-event, .fc-event:hover, .ui-widget .fc-event {border:none;color:black;background-color:yellow}
 .fc-event-container {cursor:pointer}
+
 #ex1.modal {max-width:800px}
 .myButton {
 	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
@@ -253,9 +299,11 @@ document.getElementById("more-button").value=document.getElementById("more-butto
 		SchattenSkulptura
 
 	</div>
+	<div style="display:block;float:right">
 	{% for post in site.categories.kleingedrucktes %}
 			<a href="{{ post.url }}">{{ post.title }}</a>
 	{% endfor %}
+</div>
 	<br clear="both" />
 </div>
 
@@ -383,7 +431,7 @@ document.getElementById("more-button").value=document.getElementById("more-butto
 	<br />
 
 	<center>
-		<a class="myButton" href="/kleingedrucktes/2016/04/20/kontaktformular.html"><h1>Hier klicken zum Mitmachen!</h1></a>
+		<a class="myButton" href="/kleingedrucktes/2016/04/20/kontaktformular.html"><h2>Hier klicken zum Mitmachen!</h2></a>
 	</center>
 
 
@@ -501,6 +549,7 @@ center a {
 .sponsor img {height:72px;vertical-align:middle}
 .sponsor {padding:2px 0; display:inline-block;background-color:white;color:#222;
    text-align: center;
+	 margin: 0 0 7px 0;
 }
 </style>
 
