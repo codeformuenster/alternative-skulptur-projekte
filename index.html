@@ -52,11 +52,11 @@ layout: default
 			    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
 
 			}).addTo(mymap);
-
+/*
 			L.marker([51.962155, 7.625497]).addTo(mymap)
 				.bindPopup('<center><h1>Hier könnte Ihr Skulptur- oder Kunstprojekt verzeichnet sein!</h1>'
 				+' <a class="myButton" href="/kleingedrucktes/2016/04/20/kontaktformular.html" target="_blank">Mitmachen</a></center>.');
-
+*/
 
 			var result = [
 				["03.05.2017 12:06:30","Weyand, Georgios",
@@ -66,7 +66,8 @@ layout: default
 					"","24h ohne mediale Installation an der Dammstr. 19 - an ausgewählten Tagen und Orten mit medialer Installation",
 					"Dammstr. 19 / verschiedene Orte in Münster",
 					"Sonstiges",
-					[51.951001, 7.632366]
+					[51.951001, 7.632366],
+					103
 				],
 				["04.05.2017 19:49:13","Künnemann, Ursula",
 					"Skulpturen-Garten Ahlener Gruppe",
@@ -89,11 +90,12 @@ layout: default
 				["02.05.2017 19:39:16","Kubeja, Jochen",
 					"Critical Mass Münster",
 					"https://www.facebook.com/criticalmass.ms/",
-					"Werde Teil der Masse und zeig, dass Radfahrer im Verband im Straßenverkehr ein  s werden und zu einem riesigen Fahrzeug verschmelzen. <br />	&gt; 16 Radfahrer = Verband = auf der Straße fahren 	<br />			Keine Demo, Veranstaltung oder Rennen, sondern Performance, Flashmob und Haltung. Und auch einfach und entspannt mit anderen durch die Stadt radeln. Spät dran oder Start verpasst? Kein Problem! Mit den Apps Critical Maps und Glympse könnt ihr uns auch als Nachzügler noch finden und zur Masse dazustoßen.",
+					"Werde Teil der Masse und zeig, dass Radfahrer im Verband im Straßenverkehr ein  s werden und zu einem riesigen Fahrzeug verschmelzen. <br />	&gt; 16 Radfahrer = Verband = auf der Straße fahren <br />			Keine Demo, Veranstaltung oder Rennen, sondern Performance, Flashmob und Haltung. Und auch einfach und entspannt mit anderen durch die Stadt radeln. Spät dran oder Start verpasst? Kein Problem! Mit den Apps Critical Maps und Glympse könnt ihr uns auch als Nachzügler noch finden und zur Masse dazustoßen.  Foto: Critical Mass Münster",
 					["2017-05-26", "2017-06-30", "2017-07-28", "2017-08-25", "2017-09-29"], "Fr., 26.05.2017 - Fr., 30.06.2017 - Fr. 28.07.2017 - Fr. 25.08.2017 - Fr., 29.09.2017 - Start ist jeweils um 19.00 Uhr.",
 					"Treffpunkt Domplatz Münster",
 					"Kunst-Flashmob",
-					[51.962077, 7.625366]
+					[51.962077, 7.625366],
+					102
 				],
 				["18.05.2017 18:42:49",	"Cardaun, Gilla",
 					"Fahrt ins Blaue",
@@ -112,11 +114,32 @@ layout: default
 					"Promenade, auf der Wiese direkt westlich vom Zwinger",
 					"Flashmob",//		Skulptur																								"
 					[51.967742, 7.630874]
+				],
+				["23.05.2017 19:40:51",	"Kayalie, Fouad",
+					"Syrian Sculptures - Gips and Beton",
+					"",
+					"",
+					"", "Nach Vereinbarung",
+					"Die Skulpturen stehen bei mir im Wohnzimmer. Kontaktiere mich und wir können einen Termin vereinbaren: fouadkayalie@gmail.com",
+					"Ausstellung", //		Skulptur																								"
+					[51.983640, 7.641120],
+					101
 				]
 			];
 			var events = [];
 			$.each(result, function(i, termin){
 		//    console.log(i,termin);
+				var image1 = image2 = "";
+				if (termin[10]) {
+
+					function linkify(innerhtml, extUrl) {
+						return '<a target="_blank" href="' + extUrl + '">' + innerhtml +'</a>';
+					}
+					var eventId = termin[10];
+					image1 = '<img src="IMG/photos/event' + eventId + '.jpg" width="100" /><br />';
+					image2 = '<img src="IMG/photos/event' + eventId + '.jpg" style="float:right;margin-right:10px"/><br />';
+				}
+
 				var startdate= termin[5];
 				if (startdate) {
 
@@ -124,7 +147,7 @@ layout: default
 						events.push({
 							title:termin[2],
 							start:eventdate,
-							description:termin[4]
+							description: image2 + termin[4]
 								+ '<br /><br /><b>Ort:</b> ' + termin[7]
 								+ '<br /><b>Zeit:</b> ' + termin[6]
 								+ '<br /><b>Kategorie:</b> ' + termin[8]
@@ -144,8 +167,8 @@ layout: default
 				var latlong = termin[9]
 				if (latlong) {
 					L.marker(latlong).addTo(mymap)
-						.bindPopup('<center><b>' + termin[2]+ '</b><br />' + termin[6]
-						+'<br /><br />'+termin[4]+'</center>');
+						.bindPopup('<center>'+image1+'<b>' + termin[2]+ '</b><br />' + termin[4]
+						+'<br /><br />Wann?<br />' + termin[6]+ "<br /><br />Wo?<br />" + termin[7] + '</center>');
 				}
 
 		  });
@@ -449,7 +472,7 @@ document.getElementById("more-button").value=document.getElementById("more-butto
 
 <div id="wrapper-A3" class="object">
 
-	<div id="mapid" style="width: 100%; height: 400px;"></div>
+	<div id="mapid" style="width: 100%; height: 500px;"></div>
 	<script>
 
 /*
