@@ -24,6 +24,7 @@ layout: default
   	<link rel="stylesheet" href="//unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
   	<script src="//unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 		<script src="JS/Leaflet.Sleep.js"></script>
+		<script src="schattenskulptur-events2.js"></script>
 
 <link rel='stylesheet' href='CSS/jquery-ui-1.12.1.custom/jquery-ui.min.css' />
 <link rel='stylesheet' href='CSS/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css' />
@@ -57,110 +58,40 @@ layout: default
 				.bindPopup('<center><h1>Hier könnte Ihr Skulptur- oder Kunstprojekt verzeichnet sein!</h1>'
 				+' <a class="myButton" href="/kleingedrucktes/2016/04/20/kontaktformular.html" target="_blank">Mitmachen</a></center>.');
 */
-
-			var result = [
-				["03.05.2017 12:06:30","Weyand, Georgios",
-					"Der Sonnenwagen",
-					"http://www.facebook.com/DerSonnenwagen/",
-					"Kinetische Gemeinschafts-Skulptur mit medialer Installation",
-					"","24h ohne mediale Installation an der Dammstr. 19 - an ausgewählten Tagen und Orten mit medialer Installation",
-					"Dammstr. 19 / verschiedene Orte in Münster",
-					"Sonstiges",
-					[51.951001, 7.632366],
-					103
-				],
-				["04.05.2017 19:49:13","Künnemann, Ursula",
-					"Skulpturen-Garten Ahlener Gruppe",
-					"",
-					"Gegenüber des Zwingers an der Promenade führt ein schmaler Weg (markiert) direkt in den einladenden Skulpturen-Garten. Die Ahlener KünstlerInnengruppe arbeitet seit über 10 Jahren an Skulpturen aus Sandstein und Speckstein. Eine Auswahl der Werke präsentieren sie in dem hausumläufigen Garten. Die Gruppe verbindet der Werkstoff, die Motivwahl erfolgt individuell durch die jeweilige KünstlerIn. Die Künstler sind anwesend und arbeiten zum Teil vor Ort.",
-					"2017-08-29","Sa., 29.08.2017, 12.00 bis 18.00 Uhr",
-					"Zeppelinstr. 6, 48147 Münster",
-					"Ausstellung",
-					[51.968199, 7.631402]
-				],
-				["12.05.2017 15:55:24","Luckmann, Helmut",
-					"Aus-Stellung, Aus-Schnitte",
-					"",
-					"Im Rahmen eines 'Offenen Aleliers' ist u.a. das Bild zu sehen, das im letzten Jahr bei einer Performance im Schlossgarten entstand. Die Tänzer Alice Cerrato und Antonio Rusciano begleiten eine Transformation dieses großen Bildes, bei der die Besucher einen bestimmten Aussnitt wählen können, der von mir vor Ort zu einem neuen Objekt gestaltet wird. Wir geben auch gerne Autogramme ins Booklet, das die gesamte Performance inkl. DVD dokumentiert. Die einzelnen Aktionen werden jeweils um 12, 14, und 16 Uhr starten. Sie sind herzlich eingeladen, sich an diesem Tag inspirieren und überraschen zu lassen. ",
-					"2017-06-11", "So., 11.06.2017, 11 bis 17 Uhr",
-					"Atelier Werse 27, Pleistermühlenweg, Biohof Borghoff",
-					"Ausstellung",//"Gemälde"
-					[51.960840, 7.697510]
-				],
-				["02.05.2017 19:39:16","Kubeja, Jochen",
-					"Critical Mass Münster",
-					"https://www.facebook.com/criticalmass.ms/",
-					"Werde Teil der Masse und zeig, dass Radfahrer im Verband im Straßenverkehr ein  s werden und zu einem riesigen Fahrzeug verschmelzen. <br />	&gt; 16 Radfahrer = Verband = auf der Straße fahren <br />			Keine Demo, Veranstaltung oder Rennen, sondern Performance, Flashmob und Haltung. Und auch einfach und entspannt mit anderen durch die Stadt radeln. Spät dran oder Start verpasst? Kein Problem! Mit den Apps Critical Maps und Glympse könnt ihr uns auch als Nachzügler noch finden und zur Masse dazustoßen.  Foto: Critical Mass Münster",
-					["2017-05-26", "2017-06-30", "2017-07-28", "2017-08-25", "2017-09-29"], "Fr., 26.05.2017 - Fr., 30.06.2017 - Fr. 28.07.2017 - Fr. 25.08.2017 - Fr., 29.09.2017 - Start ist jeweils um 19.00 Uhr.",
-					"Treffpunkt Domplatz Münster",
-					"Kunst-Flashmob",
-					[51.962077, 7.625366],
-					102
-				],
-				["18.05.2017 18:42:49",	"Cardaun, Gilla",
-					"Fahrt ins Blaue",
-					"http://www.ambulantegalerie.de",
-					"Ein umgestaltetes Verkehrs-Schild, bemalt mit Acrylfarbe",
-					"", "Mo - Fr: 10 bis 18 Uhr, Sa: 10 - 14 Uhr",
-					"In der Fahrrad-Werkstatt Lila Leeze, Dortmunder Str. 11, 48155 Münster	Ausstellung",
-					"Gemälde",
-					[51.955298, 7.641913]
-				],
-				["18.05.2017 20:09:09", "SchattenSkulptura",
-					"Offizieller Auftakt SchattenSkulptura",
-					"http://www.wohnzimmer-ev.de",
-					"Zum Auftakt unserer SchattenSkulptura starten wir mit einem Kunst-Picknick an der Promenade. Bringt Picknick-Decken mit und alles, was dazu gehört. Also lecker Essen und Trinken, Kerzenfackeln, Instrumente, Mucke...  Und: Natürlich ein Stück Kunst. Oder auch zwei. Kommt vorbei und startet mit uns in den ultimativen Kunst-Sommer! (JedeR nimmt mit nach Haus, was er/sie mitbringt)",
-					"2017-06-16", "Freitag, 16.06.2017 ab 20 Uhr",
-					"Promenade, auf der Wiese direkt westlich vom Zwinger",
-					"Flashmob",//		Skulptur																								"
-					[51.967742, 7.630874]
-				],
-				["23.05.2017 19:40:51",	"Kayalie, Fouad",
-					"Syrian Sculptures - Gips and Beton",
-					"",
-					"",
-					"", "Nach Vereinbarung",
-					"Die Skulpturen stehen bei mir im Wohnzimmer. Kontaktiere mich und wir können einen Termin vereinbaren: fouadkayalie@gmail.com",
-					"Ausstellung", //		Skulptur																								"
-					[51.983640, 7.641120],
-					101
-				],
-				[
-					"25.05.2017 20:14:53", "Kötter, Lisa",
-					"Skulptur-to-go- Automat",
-					"http://strohzugoldlisa.blogspot.de",
-					"Ich werde einen fahrbaren \"Skulpturen-Automaten\" bauen. Dort kann jeder gegen eine kleine spende eine kleine Skulptur für die Hosentasche( und dann zu Hause fürs Sideboard) erstehen. Die Kunstfreunde werden mit dem \"Automaten\" auch reden können, er kann Fragen  zu den kleinen Kunstwerken beantworten. Die kleinen Skulpturen werden von mir persönlich ( vor allem aus upgecycleten  Altmaterial) gefertigt und in entsprechend gestaltete Streichholzschachteln verpackt, die jeweils Teil des kleinen Werkes sein werden. Ich bin freischaffende Künstlerin aus Münster. Nah Göttingen habe ich ein zweites Atelier. Seit über 20 Jahren mache ich meine Kunst vor allem aus Altmaterialien. So ist der Name meines Blogs \"strohzugold\" Programm.",
-					["2017-06-16","2017-06-17","2017-06-18","2017-06-24","2017-06-25","2017-07-01","2017-07-02","2017-07-22","2017-07-23"], "(16.,)17.,18. Juni, 24.,25. Juni, 1.,2. Juli, 22,.23. Juli jeweils ca.14-16 Uhr",
-					"Um die Kreuzschanze herum (Promenade)",
-					"Fahrbarer	Skulpturen-\"Automat\"",
-					[51.967369, 7.622084]
-				],
-				[
-					"09.06.2017 18:47:44" ,"Jaffke, Michael",
-					"Offenes Atelier",
-					"http://www.farbig-und-rostig.de",
-					"Wir öffnen unser Atelier und zeigen unsere neuesten Objekte, aber auch ältere Werke der letzten Jahre. Es handelt sich dabei um Acrylbilder, sowie Skulpturen aus Schrott und Fundstücken. Die Location liegt am Ufer der Werse und ist am Besten mit dem Fahrrad oder zu Fuß erreichbar. Autofahrer könnten evtl. Parkprobleme bekommen und sollten in der Umgebung der Kapelle am Beginn der Zielstraße parken.",
-					["2017-09-09", "2017-09-10", "2017-09-23", "2017-09-24"], "09.09., 10.09., 23.09., 24.09. jeweils von 11 bis 18 Uhr",
-					"48157 Münster, Reetbusch 71",
-					"Ausstellung",
-					[51.971413, 7.696116]
-				]
-			];
+/*
+[ 0 '02.05.2017 19:39:16',
+  1 'Kubeja, Jochen',
+  2 'Critical Mass Münster',
+  3 'https://www.facebook.com/criticalmass.ms/',
+  4 'Werde Teil der Masse und zeig, dass Radfahrer im Verband im Straßenverkehr ein  s werden und zu einem riesigen Fahrzeug verschmelzen. \n\n> 16 Radfahrer = Verband = auf der Straße fahren \n\nKeine Demo, Veranstaltung oder Rennen, sondern Performance, Flashmob und Haltung. Und auch einfach und entspannt mit anderen durch die Stadt radeln.\n\nSpät dran oder Start verpasst? Kein Problem!\nMit den Apps Critical Maps und Glympse könnt ihr uns auch als Nachzügler noch finden und zur Masse dazustoßen.\nCritical Maps: Einfach App runterladen und öffnen. Der aktuelle Standort der CM wird angezeigt.\nGlympse: App runterladen und nach dem Tag "criticalmassMS" suchen, auch hier wird dann der Standort angezeigt.\nFür alle die pünktlich da sind: Ladet euch doch auch die App runter, startet Sie beim losfahren und teilt damit euren Standort. Das ermöglicht den anderen uns zu finden. Je mehr Leute mitmachen, desto genauer wirds!\n\nBis gleich!\n',
+  5 'Fr., 26.05.2017\nFr., 30.06.2017\nFr. 28.07.2017\nFr. 25.08.2017\nFr., 29.09.2017\nStart ist jeweils um 19.00 Uhr.',
+  6 'Treffpunkt Domplatz Münster',
+  7 'Kunst-Flashmob',
+  8 '',
+  9 '51.962077',
+  10 '7.625366',
+  11 '102',
+  12 [ '2017-05-26',
+    '2017-06-30',
+    '2017-07-28',
+    '2017-08-25',
+    '2017-09-29' ] ]
+		*/
 			var events = [];
-			$.each(result, function(i, termin){
+			$.each(SchattenSkulpturEvents, function(i, termin){
 		//    console.log(i,termin);
 				var image1 = image2 = "";
-				if (termin[10]) {
+				if (termin[11]) {
 
 					function linkify(innerhtml, extUrl) {
 						return '<a target="_blank" href="' + extUrl + '">' + innerhtml +'</a>';
 					}
-					var eventId = termin[10];
+					var eventId = termin[11];
 					image1 = '<img src="IMG/photos/event' + eventId + '.jpg" width="100" /><br />';
 					image2 = '<img src="IMG/photos/event' + eventId + '.jpg" style="float:right;margin-right:10px"/><br />';
 				}
 
-				var startdate= termin[5];
+				var startdate= termin[12];
 				if (startdate) {
 
 					function addEvent(termin, eventdate) {
@@ -168,9 +99,9 @@ layout: default
 							title:termin[2],
 							start:eventdate,
 							description: image2 + termin[4]
-								+ '<br /><br /><b>Ort:</b> ' + termin[7]
-								+ '<br /><b>Zeit:</b> ' + termin[6]
-								+ '<br /><b>Kategorie:</b> ' + termin[8]
+								+ '<br /><br /><b>Ort:</b> ' + termin[6]
+								+ '<br /><b>Zeit:</b> ' + termin[5]
+								+ '<br /><b>Kategorie:</b> ' + termin[7]
 								+ '<br /><b>Eingetragen von:</b> ' + termin[1]
 						})
 					}
@@ -184,11 +115,11 @@ layout: default
 					}
 
 				}
-				var latlong = termin[9]
+				var latlong = termin[9] ? [termin[9], termin[10]] : 0;
 				if (latlong) {
 					L.marker(latlong).addTo(mymap)
 						.bindPopup('<center>'+image1+'<b>' + termin[2]+ '</b><br />' + termin[4]
-						+'<br /><br />Wann?<br />' + termin[6]+ "<br /><br />Wo?<br />" + termin[7] + '</center>');
+						+'<br /><br />Wann?<br />' + termin[5]+ "<br /><br />Wo?<br />" + termin[6] + '</center>');
 				}
 
 		  });
