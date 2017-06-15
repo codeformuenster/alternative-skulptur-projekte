@@ -47,11 +47,11 @@ Man könnte außerdem zusätzlich zur Internet-Plattform eine Print-Publikation 
 <p>
 <h2>Wie kann man mitmachen, das Projekt SchattenSkulptura umzusetzen?</h2>
 <b>Wir treffen uns immer Dienstags um 19 Uhr im Cafe Dreiklang an der Wolbecker Straße
-<br />um die momentanen Baustellen im Projekt zu bearbeiten.
-<br />Darüber hinaus erreichst du den Wohnzimmer e.V. per Mail: kontakt  [at]  wohnzimmer-ev.de
-<br />Alle Interessierten sind herzlich eingeladen!
-
-<br /><br />
+um die momentanen Baustellen im Projekt zu bearbeiten.<br>
+Darüber hinaus erreichst du den Wohnzimmer e.V. per Mail: kontakt  [at]  wohnzimmer-ev.de<br>
+Alle Interessierten sind herzlich eingeladen!</b>
+<br>
+<br>
 Wir freuen uns außerdem über jede Anregung und Hilfe:
 <ul>
 <li><a target="_blank" href="/kleingedrucktes/2016/04/20/kontaktformular.html">Nutze unser <b>Kontaktformular</b></a></li>
@@ -61,7 +61,7 @@ Wir freuen uns außerdem über jede Anregung und Hilfe:
 </li>
 <li>Diese Homepage steht als freier Quellcode auf GitHub zur Verfügung. Partizipiere an unserem Projekt auf GitHub:
 <a target="_blank" href="https://github.com/codeformuenster">https://github.com/codeformuenster</a></li>
-<li>Die interne Projekt-Kommunikation läuft über "Slack", ein webbasierter Instant-Messaging-Dienst zur Kommunikation innerhalb von Arbeitsgruppen: <a href="https://schattenskulptura.slack.com" taget="_blank" >https://schattenskulptura.slack.com"</a>. Lass Dich von uns anmelden per Mail an kontakt  [at]  wohnzimmer-ev.de.
+<li>Die interne Projekt-Kommunikation läuft über "Slack", ein webbasierter Instant-Messaging-Dienst zur Kommunikation innerhalb von Arbeitsgruppen: <a href="https://schattenskulptura.slack.com" taget="_blank" >https://schattenskulptura.slack.com</a>. Lass Dich von uns anmelden per Mail an kontakt  [at]  wohnzimmer-ev.de.
 </li>
 </ul>
 <p>
