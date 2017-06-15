@@ -503,78 +503,67 @@ document.getElementById("more-button").value=document.getElementById("more-butto
 <div id="A5">
 
 	<div id="wrapper-A5">
-<style>
-center a {
-	display: inline-block;
-	    color: #ddd;
-	    padding-left: 10px;
-}
-.sponsor img {height:72px;vertical-align:middle}
-.sponsor {padding:2px 0; display:inline-block;background-color:white;color:#222;
-   text-align: center;
-	 margin: 0 0 7px 0;
-}
-</style>
+	<style>
+	center a {
+		display: inline-block;
+		    color: #ddd;
+		    padding-left: 10px;
+	}
+	.sponsor img {height:72px;vertical-align:middle}
+	.sponsor {padding:2px 0; display:inline-block;background-color:white;color:#222;
+	   text-align: center;
+		 margin: 0 0 7px 0;
+	}
+	</style>
 
+	<center>
 
-<center>
+		<div style="color:white;margin-bottom:18px"><a>In Zusammenarbeit mit:</a></div>
 
-	<div style="color:white;margin-bottom:18px"><a>In Zusammenarbeit mit</a></div>
+		<a class="sponsor" style="padding-left:10px;padding-right:10px"
+		href="http://www.wohnzimmer-ev.de" target="_blank">
+			<img style="margin:0 5px 0 0" src="IMG/logo-wohnzimmer-ev.gif" alt="Wohnzimmer e.V. Logo">Wohnzimmer e.V.
+		</a>
+	    <a class="sponsor" href="http://codeformuenster.org" target="_blank">
+	    	<img src="http://codeformuenster.org/img/cfm_logo.png" alt="Code for Münster Logo" title="Code for Münster">
+	    </a>
 
-						<a class="sponsor" style="padding-left:10px;padding-right:10px"
-						href="http://www.wohnzimmer-ev.de">
-							<img style="margin:0 5px 0 0" src="IMG/logo-wohnzimmer-ev.gif">Wohnzimmer e.V.</a>
+		<br /><br />
+		<br /><br />
 
-              <a class="sponsor" href="http://codeformuenster.org"><img src="http://codeformuenster.org/img/cfm_logo.png"></a>
+		{% for post in site.categories.kleingedrucktes %}
+			<a href="{{ post.url }}">{{ post.title }}</a>
+		{% endfor %}
 
+	    <a href="https://twitter.com/codeformuenster" target="_blank">Twitter</a>
+		<a href="https://github.com/codeformuenster" target="_blank">GitHub</a>
 
-							<br /><br />
-							<br /><br />
-							<br /><br />
+	</center>
 
-										{% for post in site.categories.kleingedrucktes %}
-									      <a href="{{ post.url }}">{{ post.title }}</a>
-									  {% endfor %}
-
-
-                    <a href="https://twitter.com/codeformuenster">Twitter</a>
-										<a href="https://github.com/codeformuenster">GitHub</a>
-
-</center>
-
-<br /><br />
-
-    <div class="A5-calage"></div>
-	</div>
+	<br /><br />
 
 </div>
 
-
-
-	<script type="text/javascript" src="JS/jquery.scrollTo.min.js"></script>
-	<script type="text/javascript" src="JS/jquery.localScroll.min.js"></script>
-	<script type="text/javascript" src="JS/jquery-animate-css-rotate-scale.js"></script>
-	<script type="text/javascript" src="JS/wow.min.js"></script>
-	<script type="text/javascript">new WOW().init();</script>
-	<script type="text/javascript" src="JS/fastclick.js"></script>
-	<script type='application/javascript'>
-		window.addEventListener('load', function() {
-		    new FastClick(document.body);
-		}, false);
-	</script>
-
-
-
+<script type="text/javascript" src="JS/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="JS/jquery.localScroll.min.js"></script>
+<script type="text/javascript" src="JS/jquery-animate-css-rotate-scale.js"></script>
+<script type="text/javascript" src="JS/wow.min.js"></script>
+<script type="text/javascript">new WOW().init();</script>
+<script type="text/javascript" src="JS/fastclick.js"></script>
+<script type='application/javascript'>
+	window.addEventListener('load', function() {
+	    new FastClick(document.body);
+	}, false);
+</script>
 
 <script>
+$(window).on('beforeunload', function(){
+	$(".blank").fadeIn(300);
+	$("#main-wrapper-menu,#A1-main,#A2,#A3,#A4,#A5,#A6,#A7").animate({'opacity':'0'},300);
+		$(window).delay(1000).scrollTop(0);
+});
 
-	$(window).on('beforeunload', function(){
-		$(".blank").fadeIn(300);
-		$("#main-wrapper-menu,#A1-main,#A2,#A3,#A4,#A5,#A6,#A7").animate({'opacity':'0'},300);
-  		$(window).delay(1000).scrollTop(0);
-	});
-
-   $(document).ready(function() {
+$(document).ready(function() {
 
 	$.localScroll();
 
@@ -609,20 +598,17 @@ $(document).on('touchend mouseout', '#fleche1', function(event){
             return false;
         }
 });
+</script>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-	</script>
-
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-3346698-10', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
+  ga('create', 'UA-3346698-10', 'auto');
+  ga('send', 'pageview');
+</script>
 
 </body>
 </html>
