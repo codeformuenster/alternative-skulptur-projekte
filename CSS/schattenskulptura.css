@@ -1,12 +1,46 @@
+.header{
+	width: 100%;
+	position:fixed;
+	top: 0px;
+	background-color:#094273;
+	color:white;
+	z-index:1000000;
+	text-align:center;
+	min-height:55px;
+}
+.header a {
+	margin:12px 20px;
+	display:block;
+	float:right;
+	color: #D6E116;
+}
+.header a:hover {
+	color: white;
+}
+#schattenskulptura a {
+	color:white;
+	margin-top:8px;
+	margin-left:10px;
+	float:left;
+	font-size:35px;
+	/*font-family: 'Pacifico', cursive;
+	font-family: 'VT323', monospace;
+	*/
+	font-family: 'Press Start 2P', monospace;
+}
+#schattenskulptura:hover a {
+	color: #C6CF2C;
+}
+
 @media (max-width: 800px) {
-  .header a {
+    .header a {
 		margin: 5px;
 		font-size: 15px;
 	}
 	h1 {font-size: 1.5em;}
 }
 @media (max-width: 600px) {
-	#schattenskulptura {
+	#schattenskulptura, #schattenskulptura a {
 		font-size:20px;
 	}
 }
@@ -179,4 +213,8 @@ body {
 #title img {
 	width: auto;
 	max-width: 100%;
+}
+
+.hero-body {
+	padding-top:80px;
 }
