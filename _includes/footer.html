@@ -1,0 +1,30 @@
+<div id="A5">
+
+	<div id="wrapper-A5">
+		<center>
+
+			<div style="color:white;margin-bottom:18px">In Zusammenarbeit mit:</div>
+
+			<a class="sponsor" style="padding-left:10px;padding-right:10px"
+			href="http://www.wohnzimmer-ev.de" target="_blank">
+				<img style="margin:0 5px 0 0" src="IMG/logo-wohnzimmer-ev.gif" alt="Wohnzimmer e.V. Logo">Wohnzimmer e.V.
+			</a>
+		    <a class="sponsor" href="http://codeformuenster.org" target="_blank">
+		    	<img src="http://codeformuenster.org/img/cfm_logo.png" alt="Code for Münster Logo" title="Code for Münster">
+		    </a>
+
+			<br /><br />
+			<br /><br />
+
+			{% for post in site.categories.kleingedrucktes %}
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			{% endfor %}
+
+		    <a href="https://twitter.com/codeformuenster" target="_blank">Twitter</a>
+			<a href="https://github.com/codeformuenster" target="_blank">GitHub</a>
+		</center>
+	</div>
+
+	<br /><br />
+
+</div>

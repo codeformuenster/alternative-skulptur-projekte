@@ -18,6 +18,7 @@ layout: default
     <link href="CSS/spore-animate.css" rel="stylesheet" />
     <link href="CSS/spore-main.css" rel="stylesheet" />
     <link href="CSS/schattenskulptura.css" rel="stylesheet" />
+    <link rel="icon" href="favicon.png" type="image/png">
 
 	<script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
@@ -211,17 +212,15 @@ document.getElementById("more-button").value=document.getElementById("more-butto
 
 
    			<div id="title" class="object">
-
-<img src="IMG/schattenskulptura-logo.png" width="100%"/>
-<br />
-						<br /></div>
+				<img src="IMG/schattenskulptura-logo.png" width="100%"/>
+				<br />
+				<br /></div>
            <a href="#ancre"><div id="fleche1"></div></a>
    	    </div>
 
 	</div>
 
 </div>
-
 
 <!-- headline -->
 <div class="headliner">
@@ -358,37 +357,9 @@ document.getElementById("more-button").value=document.getElementById("more-butto
 </div>
 
 <!-- PART 5 - SUB MENU AND SHORTCUTS -->
-
-<div id="A5">
-
-	<div id="wrapper-A5">
-		<center>
-
-			<div style="color:white;margin-bottom:18px"><a>In Zusammenarbeit mit:</a></div>
-
-			<a class="sponsor" style="padding-left:10px;padding-right:10px"
-			href="http://www.wohnzimmer-ev.de" target="_blank">
-				<img style="margin:0 5px 0 0" src="IMG/logo-wohnzimmer-ev.gif" alt="Wohnzimmer e.V. Logo">Wohnzimmer e.V.
-			</a>
-		    <a class="sponsor" href="http://codeformuenster.org" target="_blank">
-		    	<img src="http://codeformuenster.org/img/cfm_logo.png" alt="Code for Münster Logo" title="Code for Münster">
-		    </a>
-
-			<br /><br />
-			<br /><br />
-
-			{% for post in site.categories.kleingedrucktes %}
-				<a href="{{ post.url }}">{{ post.title }}</a>
-			{% endfor %}
-
-		    <a href="https://twitter.com/codeformuenster" target="_blank">Twitter</a>
-			<a href="https://github.com/codeformuenster" target="_blank">GitHub</a>
-		</center>
-	</div>
-
-	<br /><br />
-
-</div>
+<footer>
+	{% include footer.html %}
+</footer>
 
 <script type="text/javascript" src="JS/jquery.scrollTo.min.js"></script>
 <script type="text/javascript" src="JS/jquery.localScroll.min.js"></script>
