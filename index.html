@@ -23,11 +23,11 @@ layout: default
 
   	<link rel="stylesheet" href="//unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
   	<script src="//unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
-		<script src="JS/Leaflet.Sleep.js"></script>
-		<script src="schattenskulptur-events2.js"></script>
+	<script src="JS/Leaflet.Sleep.js"></script>
+	<script src="schattenskulptur-events2.js"></script>
 
-<link rel='stylesheet' href='CSS/jquery-ui-1.12.1.custom/jquery-ui.min.css' />
-<link rel='stylesheet' href='CSS/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css' />
+	<link rel='stylesheet' href='CSS/jquery-ui-1.12.1.custom/jquery-ui.min.css' />
+	<link rel='stylesheet' href='CSS/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css' />
 
 	<!-- fullcalendar -->
 	<link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.css' />
@@ -268,18 +268,7 @@ document.getElementById("more-button").value=document.getElementById("more-butto
 </head>
 <body>
 
-<div class="header">
-	<div id="schattenskulptura">
-		SchattenSkulptura
-
-	</div>
-	<div style="display:block;float:right">
-	{% for post in site.categories.kleingedrucktes %}
-			<a href="{{ post.url }}">{{ post.title }}</a>
-	{% endfor %}
-</div>
-	<br clear="both" />
-</div>
+	{% include top_bar_menu.html %}
 
 	<!-- Modal HTML embedded directly into document -->
 	<div class="modal" id="ex1" style="display:none;">
