@@ -164,3 +164,11 @@ footer a.white:hover {color:white}
 #nav-toggle-state:checked ~ .nav-menu {
   display: block;
 }
+
+body {
+    text-rendering: optimizeLegibility;
+    color: #4a4a4a;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
