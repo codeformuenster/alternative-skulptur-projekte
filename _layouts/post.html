@@ -11,102 +11,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="icon" type="image/png" href="IMG/small-logo-01.png" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" rel="stylesheet" />
+  <link href="/CSS/spore-animate.css" rel="stylesheet" />
+  <link href="/CSS/spore-font.css" rel="stylesheet" />
+  <link href="/CSS/schattenskulptura.css" rel="stylesheet" />
 
 {% include headerstyle.html %}
 
-	<style>
-    .headstyle {
-      background-image: url(/IMG/trame.svg);
-      background-repeat: repeat;
-      background-color: #989b9a;
-    }
-    .is-black, .navstyle, nav {background-color:black;color:white;}
-    .nav.is-default {background-color:#094273;}
-    .nav a.nav-item:hover {color:white}
-
-    footer.footer {background-color:black;color:white}
-    footer a.white {color:#ddd}
-    footer a.white:hover {color:white}
-
-    #nav-toggle-state {
-      display: none;
-    }
-
-    #nav-toggle-state:checked ~ .nav-menu {
-      display: block;
-    }
-  </style>
 </head>
 <body>
 
-<section>
-  <div class="container navstyle header">
-    <nav class="nav is-default">
-      <div class="nav-left">
-					<div id="schattenskulptura">
-          SchattenSkulptura
-				</div>
-      </div>
-
-      <div class="nav-center">
-        <a class="nav-item" href="https://github.com/jgthms/bulma">
-          <span class="icon">
-            <i class="fa fa-github"></i>
-          </span>
-        </a>
-        <a class="nav-item" href="https://twitter.com/jgthms">
-          <span class="icon">
-            <i class="fa fa-twitter"></i>
-          </span>
-        </a>
-      </div>
-
-      <label id="nav-toggle" class="nav-toggle" for="nav-toggle-state">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-
-      <!-- This checkbox is hidden -->
-      <input type="checkbox" id="nav-toggle-state" />
-
-      <div id="nav-menu" class="nav-right nav-menu">
-        <a href="/">
-          Startseite
-        </a>
-        {% for post in site.categories.kleingedrucktes %}
-          <a href="{{ post.link | default: post.url }}">
-            <span>{{ post.title }}</span>
-          </a>
-        {% endfor %}
-      <!--
-
-        <span class="nav-item">
-          <a id="twitter" class="button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;url=http://bulma.io&amp;via=jgthms">
-            <span class="icon">
-              <i class="fa fa-twitter"></i>
-            </span>
-            <span>Tweet</span>
-          </a>
-          <a class="button is-primary" href="https://github.com/jgthms/bulma/archive/0.4.0.zip">
-            <span class="icon">
-              <i class="fa fa-download"></i>
-            </span>
-            <span>Download</span>
-          </a>
-        </span>
--->
-    </div>
-  </nav>
-
-  </div>
+  {% include top_bar_menu.html %}
 
   <section class="hero headstyle">
     <div class="hero-body">
       <div class="container has-text-centered">
-<a href="/">
-        <img src="/IMG/schattenskulptura-logo.png" width="400px">
-</a>
+        <a href="/">
+          <img src="/IMG/schattenskulptura-logo.png" width="400px">
+        </a>
         </div>
       </div>
     </div>
