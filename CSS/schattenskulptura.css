@@ -47,7 +47,7 @@
 
 #terminloader { display:block;margin-top:100px auto 0 auto;}
 
-.fc-event, .fc-event:hover, .ui-widget .fc-event {border:none;color:black;background-color:yellow}
+.fc-event, .fc-event:hover, .ui-widget .fc-event {border:none;color:black !important;background-color:yellow}
 .fc-event-container {cursor:pointer}
 
 #ex1.modal {max-width:800px}
