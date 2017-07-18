@@ -3,15 +3,16 @@ var SchattenSkulpturEvents = [
   'Kubeja, Jochen',
   'WOGA Garten',
   '',
-  'Skulpturen-Garten: Der urige, versteckt liegende Garten beherbergt mehrere Skulpturen und strahlt eine gelassene und peacige Atmosphäre aus. Ein wirklich schöner Ort, bewacht von den Wächtern des Gartens. Vom 18. bis 20. August findet hier die WOGA statt, die WohnzimmerGArtenschau des Wohnzimmer e. V. Weitere KünstlerInnen sind eingeladen, hier auszustellen.',
-  'Bei guten Wetter: Anrufen unter 0177 931 7943 oder Mail: jochen.kubeja@gmail.com',
+  'WOGA-Skulpturen-Garten: Der urige, versteckt liegende Garten beherbergt mehrere Skulpturen und strahlt eine gelassene und peacige Atmosphäre aus. Ein wirklich schöner Ort, bewacht von den Wächtern des Gartens. Vom 18. bis 20. August findet hier die WOGA statt, die WohnzimmerGArtenschau des Wohnzimmer e. V. Weitere KünstlerInnen sind eingeladen, hier auszustellen.',
+  'Bei gutem Wetter: Anrufen unter 0177 931 7943 oder Mail: jochen.kubeja@gmail.com',
   'Zum Guten Hirten, 200 m hinter der Kanalbrücke stadtauswärts links rein am Schild "WOGA"',
   'Austellung',
-  '',
+  'Skulpturen',
   '51.962821',
   '7.668446',
-  undefined,
-  undefined ]
+  '',
+  '',
+  'always' ]
 ,
 [ '03.04.2017 20:18:48',
   'Kubeja, Jochen',
@@ -25,7 +26,8 @@ var SchattenSkulpturEvents = [
   '51.941264',
   '7.639899',
   'IMG_0217.JPG',
-  undefined ]
+  '',
+  'always' ]
 ,
 [ '03.04.2017 20:43:06',
   'Kubeja, Jochen',
@@ -38,8 +40,9 @@ var SchattenSkulpturEvents = [
   '',
   '51.943400',
   '7.645780',
-  undefined,
-  undefined ]
+  '',
+  '',
+  'always' ]
 ,
 [ '10.04.2017 12:29:32',
   'Jaffke, Michael',
@@ -48,12 +51,13 @@ var SchattenSkulpturEvents = [
   'Skulpur aus Schrott und Holz',
   'August 2017',
   'noch unbekannt',
-  undefined,
-  undefined,
-  undefined,
-  undefined,
-  undefined,
-  undefined ]
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  'always' ]
 ,
 [ '02.05.2017 19:39:16',
   'Kubeja, Jochen',
@@ -71,7 +75,8 @@ var SchattenSkulpturEvents = [
     '2017-06-30',
     '2017-07-28',
     '2017-08-25',
-    '2017-09-29' ] ]
+    '2017-09-29' ],
+  'repeating' ]
 ,
 [ '03.05.2017 12:06:30',
   'Weyand, Georgios',
@@ -85,7 +90,8 @@ var SchattenSkulpturEvents = [
   '51.951001',
   '7.632366',
   '103',
-  undefined ]
+  '',
+  'always' ]
 ,
 [ '04.05.2017 19:49:13',
   'Künnemann, Ursula',
@@ -99,7 +105,8 @@ var SchattenSkulpturEvents = [
   '51.968199',
   '7.631402',
   '',
-  [ '2017-08-27' ] ]
+  [ '2017-08-27' ],
+  'once' ]
 ,
 [ '02.06.2017 14:15:52',
   'Schulze, Einar',
@@ -113,7 +120,8 @@ var SchattenSkulpturEvents = [
   '51.958503',
   '7.640315',
   '',
-  [ '2017-06-24' ] ]
+  [ '2017-06-24' ],
+  'once' ]
 ,
 [ '02.06.2017 14:15:52',
   'Schulze, Einar',
@@ -134,7 +142,8 @@ var SchattenSkulpturEvents = [
     '2017-07-12',
     '2017-07-14',
     '2017-07-19',
-    '2017-07-21' ] ]
+    '2017-07-21' ],
+  'repeating' ]
 ,
 [ '09.05.2017 19:34:15',
   'Kordt, Monika Veronika',
@@ -144,11 +153,12 @@ var SchattenSkulpturEvents = [
   'Steht noch nicht fest',
   'Steht noch nicht fest',
   'Event',
-  undefined,
-  undefined,
-  undefined,
-  undefined,
-  undefined ]
+  '',
+  '',
+  '',
+  '',
+  '',
+  'always' ]
 ,
 [ '12.05.2017 15:55:24',
   'Luckmann, Helmut',
@@ -159,10 +169,11 @@ var SchattenSkulpturEvents = [
   'Atelier Werse 27, Pleistermühlenweg, Biohof Borghoff',
   'Ausstellung',
   'Gemälde',
-  undefined,
-  undefined,
-  undefined,
-  undefined ]
+  '',
+  '',
+  '',
+  '',
+  'always' ]
 ,
 [ '15.05.2017 14:11:37',
   'Teresa Häuser',
@@ -176,7 +187,8 @@ var SchattenSkulpturEvents = [
   '51.957270',
   '7.620800',
   '',
-  [ '2017-09-11' ] ]
+  [ '2017-09-11' ],
+  'once' ]
 ,
 [ '18.05.2017 18:42:49',
   'Cardaun, Gilla',
@@ -189,8 +201,9 @@ var SchattenSkulpturEvents = [
   'Gemälde',
   '51.955298',
   '7.641913',
-  undefined,
-  undefined ]
+  '',
+  '',
+  'always' ]
 ,
 [ '18.05.2017 20:09:09',
   'SchattenSkulptura',
@@ -204,7 +217,8 @@ var SchattenSkulpturEvents = [
   '51.967742',
   '7.630874',
   '',
-  [ '2017-06-16' ] ]
+  [ '2017-06-16' ],
+  'once' ]
 ,
 [ '23.05.2017 19:40:51',
   'Kayalie, Fouad',
@@ -218,7 +232,8 @@ var SchattenSkulpturEvents = [
   '51.983640',
   '7.641120',
   '101',
-  undefined ]
+  '',
+  'always' ]
 ,
 [ '25.05.2017 20:14:53',
   'Kötter, Lisa',
@@ -229,10 +244,11 @@ var SchattenSkulpturEvents = [
   'Um die Kreuzschanze herum (Promenade)',
   'Fahrbarer "Automat"',
   'Skulpturen- "Automat"',
-  undefined,
-  undefined,
-  undefined,
-  undefined ]
+  '',
+  '',
+  '',
+  '',
+  'always' ]
 ,
 [ '06.06.2017 23:06:05',
   'Eckardt, Linda',
@@ -245,8 +261,9 @@ var SchattenSkulpturEvents = [
   'Gemälde',
   '51.934346',
   '7.594275',
-  undefined,
-  undefined ]
+  '',
+  '',
+  'always' ]
 ,
 [ '12.06.2017 14:58:15',
   'Jaffke, Michael',
@@ -260,7 +277,8 @@ var SchattenSkulpturEvents = [
   '51.971413',
   '7.696116',
   '',
-  [ '2017-09-09', '2017-09-10', '2017-09-23', '2017-09-24' ] ]
+  [ '2017-09-09', '2017-09-10', '2017-09-23', '2017-09-24' ],
+  'repeating' ]
 ,
 [ '12.06.2017 17:37:14',
   'Kubeja. Jochen',
@@ -274,7 +292,8 @@ var SchattenSkulpturEvents = [
   '51.944291',
   '7.644210',
   'IMG_0201.JPG',
-  undefined ]
+  '',
+  'always' ]
 ,
 [ '12.06.2017 18:07:23',
   'Kubeja, Jochen',
@@ -287,8 +306,9 @@ var SchattenSkulpturEvents = [
   'Graffiti - Urban Street Art',
   '51.941264',
   '7.639899',
-  undefined,
-  undefined ]
+  '',
+  '',
+  'always' ]
 ,
 [ '12.06.2017 19:27:23',
   'Kubeja, Jochen',
@@ -302,7 +322,8 @@ var SchattenSkulpturEvents = [
   '51.942200',
   '7.643010',
   'IMG_0208.JPG',
-  undefined ]
+  '',
+  'always' ]
 ,
 [ '12.06.2017 18:42:53',
   'Kubeja, Jochen',
@@ -313,10 +334,11 @@ var SchattenSkulpturEvents = [
   'Nieberdingstraße 26, 48155 Münster. Wiese nördlich vor\'m Haus',
   'Ausstellung',
   'Skulptur',
-  undefined,
-  undefined,
-  undefined,
-  undefined ]
+  '',
+  '',
+  '',
+  '',
+  'always' ]
 ,
 [ '12.06.2017 19:11:22',
   'Kubeja, Jochen',
@@ -330,7 +352,8 @@ var SchattenSkulpturEvents = [
   '51.939389',
   '7.638609',
   'IMG_0218.JPG',
-  undefined ]
+  '',
+  'always' ]
 ,
 [ '12.06.2017 19:24:13',
   'Kubeja, Jochen',
@@ -343,8 +366,9 @@ var SchattenSkulpturEvents = [
   'Urban Street Art',
   '51.943878',
   '7.638363',
-  undefined,
-  undefined ]
+  '',
+  '',
+  'always' ]
 ,
 [ '17.06.2017 01:40:10',
   'Jasper, Lennart',
@@ -358,7 +382,8 @@ var SchattenSkulpturEvents = [
   '51.952749',
   '7.636804',
   '',
-  [ '2017-06-23' ] ]
+  [ '2017-06-23' ],
+  'once' ]
 ,
 [ '19.06.2017 08:35:39',
   'Dr. Köpfer Karlheinz',
@@ -371,8 +396,9 @@ var SchattenSkulpturEvents = [
   'Skulptur',
   '51.962180',
   '7.628270',
-  undefined,
-  undefined ]
+  '',
+  '',
+  'always' ]
 ,
 [ '19.06.2017 13:56:16',
   'Beckmann, Julian',
@@ -383,10 +409,11 @@ var SchattenSkulpturEvents = [
   'Ich suche nach einem geeigneten Ort, an dem ich meine kleinen Hefte auslegen kann. ( ca.14 x 20 cm)',
   'Pappaufsteller, Kiste o.ä.',
   'Magazine / Kunsthefte',
-  undefined,
-  undefined,
-  undefined,
-  undefined ]
+  '',
+  '',
+  '',
+  '',
+  'always' ]
 ,
 [ '20.06.2017 16:33:30',
   'Luttermann, Christian',
@@ -395,12 +422,13 @@ var SchattenSkulpturEvents = [
   '-',
   '',
   'Garten Sonnenbergweg, Berg Fidel',
-  undefined,
-  undefined,
-  undefined,
-  undefined,
-  undefined,
-  undefined ]
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  'always' ]
 ,
 [ '21.06.2017 13:50:32',
   'Magusa, Guillermo',
@@ -421,7 +449,8 @@ var SchattenSkulpturEvents = [
     '2017-07-24',
     '2017-07-31',
     '2017-08-07',
-    '2017-08-14' ] ]
+    '2017-08-14' ],
+  'repeating' ]
 ,
 [ '21.06.2017 14:26:22',
   'Jochen Kubeja',
@@ -434,22 +463,24 @@ var SchattenSkulpturEvents = [
   'Guerilla-Gardeing',
   '51.971290',
   '7.609600',
-  undefined,
-  undefined ]
+  '',
+  '',
+  'always' ]
 ,
 [ '21.06.2017 15:16:25',
   'Kubeja, Jochen',
   'Guerilla-Skulptur: "Brave America"',
   'www.wohnzimmer-ev.de',
-  'Der münsteraner Künstler Christian Nachtigäller hat mit seiner Guerilla-Skulptur "Brave America" mal wieder für Aufsehen gesorgt. In einer Nacht und Nebel-Aktion stellte er seine 3 m hohe Skulptur auf. Sie stellt eine amerikanischen Flagge dar, gespickt mit kleinen Autos, rot angemalten Zinnsoldaten, Fernbedienungen, Kreditkarten, eine blau gestrichenen Öltonne und auf dem Rasen liegenden Sternen. Für den Standort wählte er die korrespondierende Nähe zum Skulptur Projekt 2017 "Momentary Monument - The Stone" und stellt mit seiner USA-Kritik einen Bezug zum Train-Denkmal her, dass an die Kolonialkriege erinnert.\nDas Kunstwerk wurde nur 48 Stunden nach seiner Aufstellung vom Ordnungsamt entfernt - aus Verkehrssicherungsgründen, wie das Presseamt der Stadt Münster verlautbaren ließ.\n"Es ist das Schicksal der Anarchisten und Unruhe-Stifter, dass sie mit den Ordnungskräften in Konflikt geraten." (Quelle: WN)\nSo so. \nAus Respekt, gegen das Vergessen der Räumung und für alle Anarchisten und Unruhestifter stellt SchattenSkulptura zumindest virtuell "Brave America" wieder auf!',
+  'Der münsteraner Künstler Christian Nachtigäller hat mit seiner Guerilla-Skulptur "Brave America" mal wieder für Aufsehen gesorgt. In einer Nacht und Nebel-Aktion stellte er seine 3 m hohe Skulptur auf. Sie stellt eine amerikanischen Flagge dar, gespickt mit kleinen Autos, rot angemalten Zinnsoldaten, Fernbedienungen, Kreditkarten, eine blau gestrichenen Öltonne und auf dem Rasen liegenden Sternen. Für den Standort wählte er die korrespondierende Nähe zum Skulptur Projekt 2017 "Momentary Monument - The Stone" und stellt mit seiner USA-Kritik einen Bezug zum Train-Denkmal her, dass an die Kolonialkriege erinnert.\nDas Kunstwerk wurde nur 48 Stunden nach seiner Aufstellung vom Ordnungsamt entfernt - aus Verkehrssicherungsgründen, wie das Presseamt der Stadt Münster verlautbaren ließ.\n"Es ist das Schicksal der Anarchisten und Unruhe-Stifter, dass sie mit den Ordnungskräften in Konflikt geraten." (Quelle: WN)\nSo so. \nJetzt hat der Künstler am Rande der Stern-Apotheke ein privates Grundstück gefunden, um sein Werk unbehelligt auszustellen. Geht doch!',
   'Rund um die Uhr',
   'Ludgeristraße 66 / Ecke Promenade',
   'Ausstellung',
   'Skulptur',
-  '51.95634',
-  '7.62607',
-  undefined,
-  undefined ]
+  '51.95663',
+  '7.62617',
+  '',
+  '',
+  'always' ]
 ,
 [ '22.06.2017 09:23:24',
   'Dr. köpfer, Karlheinz',
@@ -463,7 +494,8 @@ var SchattenSkulpturEvents = [
   '51.954530',
   '7.622170',
   '',
-  [ '2017-07-02' ] ]
+  [ '2017-07-02' ],
+  'once' ]
 ,
 [ '23.06.2017 10:30:35',
   'Newels, Martin',
@@ -477,7 +509,8 @@ var SchattenSkulpturEvents = [
   '51.964154',
   '7.630927',
   '',
-  [ '2017-07-15', '2017-08-19', '2017-09-02' ] ]
+  [ '2017-07-15', '2017-08-19', '2017-09-02' ],
+  'repeating' ]
 ,
 [ '28.06.2017 10:46:14',
   'max.hurle@web.de',
@@ -491,13 +524,14 @@ var SchattenSkulpturEvents = [
   '51.967455',
   '7.642436',
   '',
-  [ '2017-07-08' ] ]
+  [ '2017-07-08' ],
+  'once' ]
 ,
 [ '03.07.2017 13:37:58',
   'Wilken, Thomas',
   '1. Fotoaustellung Thomas Wilken',
   'www.thomaswilken.com',
-  'Ich würde meine Fotografien wie folgt beschreiben: \nAktfotografien auf denen die dargestellten Frauen nicht als sexuelle Objekte dargestellt werden. Vielmehr soll die "Nacktheit", in der meist natürlichen Umgebung, Zerbrechlichkeit darstellen und Pur sein. Dadurch dass auf den meisten Bildern keine Gesichter zu erkennen sind, geht es nicht speziell um den/die Menschen auf dem Foto (wie z.B. in einem Portrait) sondern um die Verschmelzung zwischen Mensch und Natur. ',
+  'Ich würde meine Fotografien wie folgt beschreiben: \nAktfotografien auf denen die dargestellten Frauen nicht als sexuelle Objekte dargestellt werden. Vielmehr soll die "Nacktheit", in der meist natürlichen Umgebung, Zerbrechlichkeit darstellen und Pur sein. Dadurch dass auf den meisten Bildern keine Gesichter zu erkennen sind, geht es nicht speziell um den/die Menschen auf dem Foto (wie z.B. in einem Portrait) sondern um die Verschmelzung zwischen Mensch und Natur. Vernissage: 26.07.2017 ab 18 Uhr !\n',
   'Mittwochs 9 – 16 Uhr und freitags 9 – 14 Uhr\nTermine nach Absprache möglich.',
   'KnowMe, Diepenbrockstrasse 11a, Hinterhof, 48145 Münster',
   'Ausstellung',
@@ -505,14 +539,18 @@ var SchattenSkulpturEvents = [
   '51.958503',
   '7.640315',
   '',
-  [ '2017-07-12',
-    '2017-07-14',
-    '2017-07-19',
-    '2017-07-21',
-    '2017-07-26',
+  [ '2017-07-26',
     '2017-07-28',
     '2017-08-02',
-    '2017-08-04' ] ]
+    '2017-08-04',
+    '2017-08-09',
+    '2017-08-11',
+    '2017-08-16',
+    '2017-08-18',
+    '2017-08-23',
+    '2017-08-25',
+    '' ],
+  'repeating' ]
 ,
 [ '03.07.2017 17:49:51',
   'Simsek Meryem',
@@ -525,7 +563,53 @@ var SchattenSkulpturEvents = [
   '',
   '51.974959',
   '7.600039',
-  undefined,
-  undefined ]
+  '',
+  '',
+  'always' ]
+,
+[ '15.07.2017 20:55:33',
+  'Schiwy, Monika',
+  'Tischgespräche und Ausstellung',
+  'www.monikaS.de',
+  'Tischgespräche rund um einen alten Tisch im Atelier ART & Weise',
+  '13.08.2017   11:30 Uhr bis 17:00 Uhr',
+  'Atelier ART & Weise, Monika Schiwy, Haus Coerde, Coermühle 50, 48157 Münster',
+  'Event',
+  'ART Salon ',
+  '',
+  '',
+  '',
+  '',
+  'always' ]
+,
+[ '03.07.2017 17:49:52',
+  'Kubeja, Jochen',
+  'Guerilla-Skulptur: "Ride on the shoulders of ÖZIL" oder so',
+  'www.wohnzimmer-ev.de',
+  'Skulptur zum Quadrat: Die dem Fußballgott ÖZIL nachempfundene, silbrige Skulptur, die einem Denkmal gleicht, war längere Zeit verschollen, steht aber nun wieder auf seinem Platz vor der Halle Münsterland. Die aus dem Nichts auftauchende SchattenSkulptura, eine silberfarbige Figur in einem Morphsuit, wurde auf den Schultern des Fußballers platziert. Beide korrespondieren in Form und Farbe, harmonisieren federleicht und zu einer Einheit verschmolzen. ',
+  'Rund um die Uhr',
+  'Albersloher Weg 32, 48155 Münster',
+  'Ausstellung',
+  'Skulptur',
+  '51.94872',
+  '7.63871',
+  '',
+  '',
+  'always' ]
+,
+[ '12.06.2017 19:24:13',
+  'Kubeja, Jochen',
+  'Graffiti-Werke - Urban Street Art',
+  'www.wohnzimmer-ev.de',
+  'Im Rahmen des diesjährigen Viertelfestes am Sa. 24.06.2017 entstand in Wurfweite des Staufenplatzes dieses Street-Art-Graffiti-Werk des lokal geschätzten Künstlers Rookie the Weird. Auf dem Bild ist deutlich seine Handschrift zu lesen: Krokodil, Affen, Wunderland. Have a look of new Weirdation.',
+  'Rund um die Uhr',
+  'Staufenstraße 9, Münster',
+  'Ausstellung',
+  'Urban Street Art',
+  '51.96453',
+  '7.64226',
+  '',
+  '',
+  'always' ]
 ,
 []];

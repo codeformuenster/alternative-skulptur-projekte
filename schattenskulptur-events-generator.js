@@ -145,7 +145,7 @@ function listMajors(auth) {
           continue;
         }
 
-        var wantedcols = [0,1,3,6,9,11,12,13,15,17,18,19,20];
+        var wantedcols = [0,1,3,6,9,11,12,13,15,17,18,19,20,21];
         var newrow = [];
         for (var j = 0; j<wantedcols.length;j++) {
           newrow.push( row[wantedcols[j]] );

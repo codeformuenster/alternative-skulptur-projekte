@@ -218,3 +218,12 @@ body {
 .hero-body {
 	padding-top:80px;
 }
+
+.legende {
+	font-family:Arial;
+    float: left;
+    margin: 30px;
+}
+.legende img {
+    height:25px
+}
