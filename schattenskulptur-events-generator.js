@@ -105,7 +105,7 @@ function listMajors(auth) {
   sheets.spreadsheets.values.get({
     auth: auth,
     spreadsheetId: '1I9h_U4kWcQ9OaKEhPlK-I5u0ToI_QR9nZAHrMTSBIIQ',
-    range: 'Formularantworten 1!A1:V',
+    range: 'Formularantworten 1!A1:W',
   }, function(err, response) {
     if (err) {
       console.log('The API returned an error: ' + err);
@@ -145,7 +145,7 @@ function listMajors(auth) {
           continue;
         }
 
-        var wantedcols = [0,1,3,6,9,11,12,13,15,17,18,19,20,21];
+        var wantedcols = [0,1,3,6,9,11,12,13,15,18,19,20,21,22];
         var newrow = [];
         for (var j = 0; j<wantedcols.length;j++) {
           newrow.push( row[wantedcols[j]] );
