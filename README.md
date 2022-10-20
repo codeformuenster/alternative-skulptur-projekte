@@ -14,3 +14,10 @@ Siehe hier: https://developers.google.com/sheets/api/quickstart/nodejs
 Dann die json Datei mit den Terminen generieren mit:
 
     node schattenskulptur-events-generator.js > schattenskulptur-events2.js
+
+## Local development
+
+```bash
+    # Sämtliche Gemfiles löschen und dann:
+    sudo docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
+```

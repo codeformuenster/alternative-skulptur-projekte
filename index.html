@@ -20,7 +20,7 @@ layout: default
     <link href="CSS/schattenskulptura.css" rel="stylesheet" />
     <link rel="icon" href="favicon.png" type="image/png">
 
-	<script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='/CSS/jquery.min.js'></script>
 
   	<link rel="stylesheet" href="//unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
   	<script src="//unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
@@ -469,15 +469,20 @@ $(document).on('touchend mouseout', '#fleche1', function(event){
 });
 </script>
 
+<!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-3346698-10', 'auto');
-  ga('send', 'pageview');
+	(function(f, a, t, h, o, m){
+		a[h]=a[h]||function(){
+			(a[h].q=a[h].q||[]).push(arguments)
+		};
+		o=f.createElement('script'),
+		m=f.getElementsByTagName('script')[0];
+		o.async=1; o.src=t; o.id='fathom-script';
+		m.parentNode.insertBefore(o,m)
+	})(document, window, '//tomo.input23.de/tracker.js', 'fathom');
+	fathom('set', 'siteId', 'IGNYE');
+	fathom('trackPageview');
 </script>
-
+<!-- / Fathom -->
 </body>
 </html>
